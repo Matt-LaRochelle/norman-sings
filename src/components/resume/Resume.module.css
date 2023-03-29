@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.4rem;
+    border: 2px solid white;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.nPhoto {
+    width: 100%;
+    border: 2px solid aqua;
+}
+
+.nResume {
+    width: 100%;
+    border: 2px solid lime;
+}
+
+.img {
+    width: 100%;
+    height: ;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 30px auto;
+    padding: 7px 16px;
+    border-radius: 8px;
+    background-color: lime;
+}
+
+.prep {
+    padding: 30px;
+    font-size: 1.4rem;
+}
