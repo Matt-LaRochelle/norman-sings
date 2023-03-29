@@ -2,24 +2,25 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.4rem;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 95%;
     margin: 20px auto;
 }
 
 .nPhoto {
     width: 100%;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
 }
 
 .nResume {
     width: 100%;
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
 }
 
 .img {
+    object-fit: fill;
     width: 100%;
-    height: ;
+    height: 90%;
 }
 
 .btn {
@@ -29,10 +30,26 @@
     margin: 30px auto;
     padding: 7px 16px;
     border-radius: 8px;
-    background-color: lime;
+    background-color: rgb(12, 164, 75);
+    color: #f8f8f8;
+    border: none;
 }
+
+
 
 .prep {
     padding: 30px;
     font-size: 1.4rem;
+}
+
+.ul {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.4rem;
+    }
 }

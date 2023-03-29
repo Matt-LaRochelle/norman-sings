@@ -18,7 +18,7 @@ function Resume() {
             </div>
             <div className={styles.prep}>
                 <h1>Roles Prepared:</h1>
-                <ul>
+                <ul className={styles.ul}>
                     <li>Zuniga - Carmen - Bizet</li>
                     <li>Somnus/Cadmus - Semele (Covered) - Handel</li>
                     <li>King Balthazar - Amahl and the Night Visitors - Menotti</li>

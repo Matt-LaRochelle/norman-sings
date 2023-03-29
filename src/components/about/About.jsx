@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './About.module.css';
 import Card from '../card/Card';
+import Card_p from '../card/Card_p';
 import n1 from '../images/n1.jpg';
-import upcoming_cards from '../cards.js';
+import upcoming_cards from '../upcoming_cards.js';
+import previous_cards from '../previous_cards.js';
 
 
 
@@ -23,6 +25,7 @@ function About() {
                 </div>
             </div>
             <h2 className={styles.h2}>Upcoming Performances:</h2>
+            <div className={styles.upcoming_container}>
             {upcoming_cards.map((card) => {
                 return <Card 
                 opera={card.opera}
@@ -34,7 +37,20 @@ function About() {
                 image={card.image}
             />
             })}
-            
+            </div>
+
+            <h2 className={styles.h2}>Recent Performances:</h2>
+            {previous_cards.map((card) => {
+                return <Card_p 
+                opera={card.opera}
+                role={card.role}
+                link={card.link}
+                company={card.company}
+                performances={card.performances}
+                location={card.location}
+                image={card.image}
+            />
+            })}
 
         </div>
     );

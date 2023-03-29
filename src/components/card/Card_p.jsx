@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Card.module.css';
+import styles from './Card_p.module.css';
 
-function Card(props) {
+function Card_p(props) {
     return (
         <div className={styles.container}>
             <h3 className={styles.h3}><em>{props.opera},</em> {props.role}</h3>
@@ -17,4 +17,4 @@ function Card(props) {
     );
 }
 
-export default Card;
+export default Card_p;

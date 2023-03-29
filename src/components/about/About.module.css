@@ -15,6 +15,11 @@
     /* border: 2px solid  */
 }
 
+.upcoming_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .content {
     /* border: 2px solid lime; */
 }
@@ -54,5 +59,10 @@
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
+    }
+
+    .upcoming_container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
     }
 }
