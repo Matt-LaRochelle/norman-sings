@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <header className={styles.navbar}>
-            <h2 className={styles.title}>Norman Espinoza</h2>
+            <div>
+            <h2 className={styles.title}>Norman Espinoza,</h2>
+            <p className={styles.bass}>Bass</p>
+            </div>
+            
             <nav>
                 <ul className={styles.menu}>
                     <li>

@@ -5,6 +5,7 @@ function Contact() {
     return (
         <div>
             Hello Contact!
+            <p>asdlfkjasdflhaweljkfhaslkdjf OMG</p>
         </div>
     );
 }
