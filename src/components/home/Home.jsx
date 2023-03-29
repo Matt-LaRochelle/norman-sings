@@ -3,8 +3,7 @@ import styles from './Home.module.css';
 
 function Home() {
     return (
-        <div>
-            Hello Home!
+        <div className={styles.hero}>
         </div>
     );
 }

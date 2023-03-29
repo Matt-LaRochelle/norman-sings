@@ -20,3 +20,15 @@
     padding: 30px;
     font-size: 1.4rem;
 }
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.icon:hover {
+    color: lime;
+}

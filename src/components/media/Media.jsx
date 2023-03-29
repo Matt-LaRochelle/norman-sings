@@ -14,9 +14,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import instagram from 
+import { AiOutlineInstagram, AiFillFacebook, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
 
-AiOutlineInstagram
+
 
 
 const v1 = "https://www.youtube.com/watch?v=yKs_S6c9yFE"
@@ -129,6 +129,12 @@ function Media() {
                 <p className={styles.p}><em>Tremendous voice! Love the color, especially in the lower part of your voice. Intonation and inflection are very good.</em>  - CS Music 2021</p>
                 <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music 2021</p>
                 <p className={styles.p}><em>Wow! You are a wonderful singer/actor. You painted a complete picture that was just chilling. I loved the way you used dynamics in your powerful singing. And you also gave us a performance that used your entire instrument in a way that supported your voice beautifully. I believed every second! Bravo! </em> - CS Music 2021</p>
+            </div>
+            <div className={styles.socials}>
+                <a href="https://www.instagram.com/normanno.espinoza/"><AiOutlineInstagram className={styles.icon}/></a>
+                <a href="https://www.facebook.com/NormanBassoEspinoza"><AiFillFacebook className={styles.icon}/></a>
+                <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ"><AiFillYoutube className={styles.icon}/></a>
+                <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/"><AiFillLinkedin className={styles.icon}/></a>
             </div>
         </div>
     );

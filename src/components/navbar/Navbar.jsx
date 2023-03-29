@@ -12,19 +12,19 @@ function Navbar() {
             
             <nav>
                 <ul className={styles.menu}>
-                    <li>
+                    <li className={styles.li}>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className={styles.li}>
                         <Link to="/about">About</Link>
                     </li>
-                    <li>
+                    <li className={styles.li}>
                         <Link to="/resume">Resume</Link>
                     </li>
-                    <li>
+                    <li className={styles.li}>
                         <Link to="/media">Media</Link>
                     </li>
-                    <li>
+                    <li className={styles.li}>
                         <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
