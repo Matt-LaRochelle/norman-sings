@@ -1,0 +1,22 @@
+.mySwiper {
+    border: 2px solid white;
+    margin: 30px;
+    height: 430px;
+}
+
+.img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.h1 {
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.p {
+    padding: 30px;
+    font-size: 1.4rem;
+}
