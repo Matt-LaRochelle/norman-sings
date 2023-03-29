@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from './About.module.css';
 import Card from '../card/Card';
-import n1 from '../n1.jpg';
+import n1 from '../images/n1.jpg';
+import upcoming_cards from '../cards.js';
+
+
 
 function About() {
     return (
@@ -20,7 +23,18 @@ function About() {
                 </div>
             </div>
             <h2 className={styles.h2}>Upcoming Performances:</h2>
-            <Card />
+            {upcoming_cards.map((card) => {
+                return <Card 
+                opera={card.opera}
+                role={card.role}
+                link={card.link}
+                company={card.company}
+                performances={card.performances}
+                location={card.location}
+                image={card.image}
+            />
+            })}
+            
 
         </div>
     );

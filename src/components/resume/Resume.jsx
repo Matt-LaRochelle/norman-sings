@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Resume.module.css';
-import n2 from '../N2.jpg';
-import n3 from '../N3.png';
+import n2 from '../images/N2.jpg';
+import n3 from '../images/N3.png';
 
 function Resume() {
     return (
