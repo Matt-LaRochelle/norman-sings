@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from './Navbar.module.css';
 import { NavLink } from 'react-router-dom';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
+    const [nav, setNav] = useState(false);
     return (
         <header className={styles.navbar}>
             <div>
@@ -11,10 +13,11 @@ function Navbar() {
             </div>
             
             <nav>
-                <ul className={styles.menu}>
+                <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li className={styles.li}>
                         <NavLink 
                         to="/"
+                        onClick={()=> setNav(!nav)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -28,6 +31,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/about"
+                        onClick={()=> setNav(!nav)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -41,6 +45,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/resume"
+                        onClick={()=> setNav(!nav)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -54,6 +59,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/media"
+                        onClick={()=> setNav(!nav)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -67,6 +73,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/contact"
+                        onClick={()=> setNav(!nav)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -79,6 +86,9 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
+            <div onClick={()=> setNav(!nav)} className={styles.mobile_btn}>
+                {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+            </div>
         </header>
     );
 }

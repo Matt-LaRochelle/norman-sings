@@ -40,7 +40,7 @@
 
 .video {
     /* border: 2px solid pink; */
-    box-shadow: rgba(130, 251, 130, 0.9) 0px 0px 12px 4px;
+    box-shadow: rgba(225, 81, 41, 0.9) 0px 0px 12px 4px;
 }
 
 .h1 {
@@ -55,10 +55,9 @@
 
 .socials {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 3rem;
-    margin-bottom: 80px;
-    margin-top: 20px;
+    margin: 20px 30px 80px 30px;
 }
 
 .icon:hover {
