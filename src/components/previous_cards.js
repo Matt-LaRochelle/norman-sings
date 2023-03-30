@@ -3,7 +3,7 @@ import scs from './images/scs.png';
 
 const cards = [
     {
-        opera: "La poop",
+        opera: "La Traviata",
         role: "Dottore Grenvil",
         link: "https://operalasvegas.com/productions/la-traviata/",
         company: "Opera Las Vegas",
@@ -13,7 +13,7 @@ const cards = [
     },
 
     {
-        opera: "Tapestries",
+        opera: "Tosca",
         role: "Il Segrastano (Role Debut)",
         link: "https://app.arts-people.com/index.php?clear_session=This+show+is+not+currently+available+for+purchase.+For+assistance+please+contact+our+box+office+at+714+731-8079.&theatre_id=3020",
         company: "Sout Coast Symphony",
@@ -47,7 +47,7 @@ const cards = [
         role: "Frank (World Premiere)",
         link: "https://operalasvegas.com/productions/letters-to-lily/",
         company: "Opera Las Vegas",
-        performances: ["September 30th 7:30pm, October1st 7:30pm, October 2nd 3:00pm"],
+        performances: ["September 30th 7:30pm", "October1st 7:30pm", "October 2nd 3:00pm"],
         location: "Las Vegas, Nevada",
         image: olv,
     }

@@ -26,31 +26,33 @@ function About() {
             </div>
             <h2 className={styles.h2}>Upcoming Performances:</h2>
             <div className={styles.upcoming_container}>
-            {upcoming_cards.map((card) => {
-                return <Card 
-                opera={card.opera}
-                role={card.role}
-                link={card.link}
-                company={card.company}
-                performances={card.performances}
-                location={card.location}
-                image={card.image}
-            />
-            })}
+                {upcoming_cards.map((card) => {
+                    return <Card 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
             </div>
 
             <h2 className={styles.h2}>Recent Performances:</h2>
-            {previous_cards.map((card) => {
-                return <Card_p 
-                opera={card.opera}
-                role={card.role}
-                link={card.link}
-                company={card.company}
-                performances={card.performances}
-                location={card.location}
-                image={card.image}
-            />
-            })}
+            <div className={styles.previous_container}>
+                {previous_cards.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
 
         </div>
     );
