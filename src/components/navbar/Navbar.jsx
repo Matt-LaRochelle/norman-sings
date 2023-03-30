@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Navbar.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -13,19 +13,69 @@ function Navbar() {
             <nav>
                 <ul className={styles.menu}>
                     <li className={styles.li}>
-                        <Link to="/">Home</Link>
+                        <NavLink 
+                        to="/"
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Home</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="/about">About</Link>
+                        <NavLink 
+                        to="/about"
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >About</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="/resume">Resume</Link>
+                        <NavLink 
+                        to="/resume"
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Resume</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="/media">Media</Link>
+                        <NavLink 
+                        to="/media"
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Media</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="/contact">Contact</Link>
+                        <NavLink 
+                        to="/contact"
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Contact</NavLink>
                     </li>
                 </ul>
             </nav>

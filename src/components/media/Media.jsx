@@ -24,103 +24,135 @@ const v1 = "https://www.youtube.com/watch?v=yKs_S6c9yFE"
 function Media() {
     return (
         <div>
-            <Swiper
-                slidesPerView={2}
-                spaceBetween={30}
-                loop={true}
-                pagination={{
-                clickable: true,
-                }}
-                navigation={true}
-                modules={[Pagination, Navigation]}
-                className={styles.mySwiper}
-            >
-                <SwiperSlide><img className={styles.img} src={N10} /></SwiperSlide>
-                <SwiperSlide><img className={styles.img} src={N11} /></SwiperSlide>
-                <SwiperSlide><img className={styles.img} src={N12} /></SwiperSlide>
-                <SwiperSlide><img className={styles.img} src={N13} /></SwiperSlide>
-                <SwiperSlide><img className={styles.img} src={N14} /></SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-            </Swiper>
+            <h1 className={styles.h1}>Photos</h1>
+            <div className={styles.swiperBig}>
+                <Swiper
+                    slidesPerView={2}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                    clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className={styles.mySwiper}
+                >
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N10} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N11} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N12} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N13} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N14} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}>Slide 6</div></SwiperSlide>
+                </Swiper>
+            </div>
+            <div className={styles.swiperSmall}>
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                    clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className={styles.mySwiper}
+                >
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N10} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N11} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N12} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N13} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N14} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}>Slide 6</div></SwiperSlide>
+                </Swiper>
+            </div>
+            <h1 className={styles.h1}>Videos</h1>
             <div className={styles.videos}>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%"
+                    height="100%"
                     src="https://www.youtube.com/embed/yKs_S6c9yFE" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/S22pQYnqRtQ" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/kvq2vSovus8" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/jjCRzK-dK2c" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/reIkSa0WGo8" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/yRRBS9DKi_o" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/Rm63NCZ_v8M" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
                 <iframe 
-                    width="560" 
-                    height="315" 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/S_ohqvB_4Qw" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
+                    className={styles.video}
                     >
                 </iframe>
             </div>
@@ -130,6 +162,7 @@ function Media() {
                 <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music 2021</p>
                 <p className={styles.p}><em>Wow! You are a wonderful singer/actor. You painted a complete picture that was just chilling. I loved the way you used dynamics in your powerful singing. And you also gave us a performance that used your entire instrument in a way that supported your voice beautifully. I believed every second! Bravo! </em> - CS Music 2021</p>
             </div>
+            <h1 className={styles.h1}>Social Media</h1>
             <div className={styles.socials}>
                 <a href="https://www.instagram.com/normanno.espinoza/"><AiOutlineInstagram className={styles.icon}/></a>
                 <a href="https://www.facebook.com/NormanBassoEspinoza"><AiFillFacebook className={styles.icon}/></a>

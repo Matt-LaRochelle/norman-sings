@@ -42,3 +42,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+a:active {
+    text-decoration: underline;
+    /* color: lime; */
+}

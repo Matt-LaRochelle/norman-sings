@@ -48,7 +48,12 @@
 
 .li {
     list-style-type: none;
+    padding: 20px;
+    background: rgb(47, 8, 8);
+    max-width: 660px;
 }
+
+.li:nth-child(odd) { background: rgb(67, 37, 0); }
 
 @media screen and (max-width: 700px) {
     .container {
