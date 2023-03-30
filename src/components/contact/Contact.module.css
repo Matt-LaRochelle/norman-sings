@@ -1,26 +1,29 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    /* border: 2px solid white; */
+    grid-gap: 1rem;
+    padding: 30px;
 }
 
 .img {
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100%;
+    /* border: 2px solid lime; */
 }
 
 .container {
-    position: absolute;
-    width: 600px;
+    /* position: absolute; */
+    width: 100%;
     /* border: 2px solid red; */
-    right: 0px;
+    /* right: 0px; */
+    /* border: 2px solid aqua; */
 
 }
 
 .name {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
     margin-bottom: 30px;
     /* border: 2px solid yellow; */
 }
@@ -28,7 +31,7 @@
 .name input {
     width: 30%;
     height: 60px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     /* border-radius: 10px; */
     padding: 10px;
     border-style: none;
@@ -47,7 +50,7 @@
 
 .content input {
     height: 60px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
     width: 73.3333%;
     /* border-radius: 10px; */
@@ -60,12 +63,14 @@
 }
 
 .message {
-    height: 300px;
-    font-size: 1.8rem;
+    /* height: 400px; */
+    height: fit-content;
+    font-size: 1.2rem;
     margin-bottom: 30px;
     width: 73.3333%;
     /* border-radius: 10px; */
     padding: 10px;
+    border: none;
     /* border: 2px solid aqua; */
 }
 
@@ -77,9 +82,39 @@
     width: 120px;
     height: 50px;
     font-size: 1.4rem;
-    background-color: rgb(12, 164, 75);
+    background-color: rgba(12, 164, 75, .8);
     color: #f8f8f8;
     border-radius: 10px;
     margin-bottom: 60px;
     border: none;
+}
+
+.btn:hover {
+    background-color: rgb(12, 164, 75)
+}
+
+
+@media screen and (max-width: 800px) {
+    .grid {
+        display: block;
+        z-index: -1;
+    }
+
+    .container {
+        position: absolute;
+        top: 160px;
+        right: 0px;
+    }
+
+    .name input {
+        background-color: rgba(255, 255, 255, 0.8)
+    }
+
+    .content input {
+        background-color: rgba(255, 255, 255, 0.8)
+    }
+
+    .message {
+        background-color: rgba(255, 255, 255, 0.8)
+    }
 }
