@@ -20,7 +20,38 @@ const cards = [
         performances: ["March 25th 7:30pm"],
         location: "Aliso Viejo, California",
         image: scs,
+    },
+
+    {
+        opera: "Holiday on Broadway",
+        role: null,
+        link: "https://operalasvegas.com/productions/holiday-on-broadway-2/",
+        company: "Opera Las Vegas",
+        performances: ["December 13th 6:00pm"],
+        location: "Las Vegas, Nevada",
+        image: olv,
+    },
+
+    {
+        opera: "Voices Raised for Vets",
+        role: null,
+        link: "https://operalasvegas.com/productions/voices-raised-for-vets/",
+        company: "Opera Las Vegas",
+        performances: ["November 12th 3:00pm"],
+        location: "Las Vegas, Nevada",
+        image: olv,
+    },
+
+    {
+        opera: "Letters to Lily",
+        role: "Frank (World Premiere)",
+        link: "https://operalasvegas.com/productions/letters-to-lily/",
+        company: "Opera Las Vegas",
+        performances: ["September 30th 7:30pm, October1st 7:30pm, October 2nd 3:00pm"],
+        location: "Las Vegas, Nevada",
+        image: olv,
     }
+
 ]
 
 export default cards;
