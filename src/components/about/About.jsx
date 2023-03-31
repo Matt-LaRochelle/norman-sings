@@ -39,7 +39,7 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>Recent Performances:</h2>
+            <h2 className={styles.h2}>Previous Performances:</h2>
             <div className={styles.previous_container}>
                 {previous_cards.map((card) => {
                     return <Card_p 

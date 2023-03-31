@@ -17,7 +17,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/"
-                        onClick={()=> setNav(!nav)}
+                        onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -31,7 +31,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/about"
-                        onClick={()=> setNav(!nav)}
+                        onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -45,7 +45,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/resume"
-                        onClick={()=> setNav(!nav)}
+                        onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -59,7 +59,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/media"
-                        onClick={()=> setNav(!nav)}
+                        onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",
@@ -73,7 +73,7 @@ function Navbar() {
                     <li className={styles.li}>
                         <NavLink 
                         to="/contact"
-                        onClick={()=> setNav(!nav)}
+                        onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
                             textDecoration: isActive ? "underline" : "inherit",

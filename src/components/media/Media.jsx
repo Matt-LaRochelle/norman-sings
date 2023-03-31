@@ -164,10 +164,10 @@ function Media() {
             </div>
             <h1 className={styles.h1}>Social Media</h1>
             <div className={styles.socials}>
-                <a href="https://www.instagram.com/normanno.espinoza/"><AiOutlineInstagram className={styles.icon}/></a>
-                <a href="https://www.facebook.com/NormanBassoEspinoza"><AiFillFacebook className={styles.icon}/></a>
-                <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ"><AiFillYoutube className={styles.icon}/></a>
-                <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/"><AiFillLinkedin className={styles.icon}/></a>
+                <a href="https://www.instagram.com/normanno.espinoza/"><AiOutlineInstagram className={`${styles.icon} ${styles.instagram}`}/></a>
+                <a href="https://www.facebook.com/NormanBassoEspinoza"><AiFillFacebook className={`${styles.icon} ${styles.facebook}`}/></a>
+                <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ"><AiFillYoutube className={`${styles.icon} ${styles.youtube}`}/></a>
+                <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/"><AiFillLinkedin className={`${styles.icon} ${styles.linkedin}`}/></a>
             </div>
         </div>
     );

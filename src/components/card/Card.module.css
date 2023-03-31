@@ -7,11 +7,10 @@
     min-width: 500px;
     margin-left: 30px;
     margin-bottom: 30px;
-    background-color: #01140a;
+    background-color: #01140a94;
     color: #f8f8f8;
     padding: 30px;
-    box-shadow: rgba(26, 200, 107, 0.9) 0px 0px 14px;
-    border-radius: 60px;
+    border: 1px solid rgb(1, 77, 1);
     position: relative;
 }
 
@@ -41,8 +40,8 @@
     height: 200px;
     width: 200px;
     position: absolute;
-    right: 40px;
-    top: 100px;
+    top: 123px;
+    right: 25px;
     background-color: black;
     border: 2px solid #f8f8f8;
 }
@@ -60,6 +59,7 @@
     .img {
         width: 130px;
         height: 130px;
-        
+        top: 193px;
+        right: 25px;
     }
 }
