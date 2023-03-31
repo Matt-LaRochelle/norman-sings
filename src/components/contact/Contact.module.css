@@ -82,7 +82,7 @@
     width: 120px;
     height: 50px;
     font-size: 1.4rem;
-    background-color: rgba(12, 164, 75, .8);
+    background-color: rgba(46, 84, 44, .9);
     color: #f8f8f8;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -90,7 +90,7 @@
 }
 
 .btn:hover {
-    background-color: rgb(12, 164, 75)
+    background-color: rgb(46, 84, 44)
 }
 
 
@@ -107,14 +107,14 @@
     }
 
     .name input {
-        background-color: rgba(255, 255, 255, 0.8)
+        background-color: rgba(255, 255, 255, 0.9)
     }
 
     .content input {
-        background-color: rgba(255, 255, 255, 0.8)
+        background-color: rgba(255, 255, 255, 0.9)
     }
 
     .message {
-        background-color: rgba(255, 255, 255, 0.8)
+        background-color: rgba(255, 255, 255, 0.9)
     }
 }

@@ -19,25 +19,25 @@ function Resume() {
             <div className={styles.prep}>
                 <h1>Roles Prepared:</h1>
                 <ul className={styles.ul}>
-                    <li className={styles.li}>Somnus/Cadmus - Semele (Covered) - Handel</li>
-                    <li className={styles.li}>Zuniga - Carmen - Bizet</li>
-                    <li className={styles.li}>King Balthazar - Amahl and the Night Visitors - Menotti</li>
-                    <li className={styles.li}>Mr. Kofner - The Consul - Menotti</li>
-                    <li className={styles.li}>Seneca - L’incoronazione di Poppea - Monteverdi</li>
-                    <li className={styles.li}>Il Commendatore - Don Giovanni - Mozart</li>
-                    <li className={styles.li}>Leporello - Don Giovanni - Mozart</li>
-                    <li className={styles.li}>Sarastro - Die Zauberflöte - Mozart</li>
-                    <li className={styles.li}>Antonio - Le Nozze di Figaro - Mozart</li>
-                    <li className={styles.li}>Dr. Bartolo - Le Nozze di Figaro - Mozart</li>
-                    <li className={styles.li}>Simone - Gianni Schicchi - Puccini</li>
-                    <li className={styles.li}>Colline - La Bohéme - Puccini</li>
-                    <li className={styles.li}>Mustafà - L’italiana in Algeri - Rossini</li>
-                    <li className={styles.li}>Alidoro - La Cenerentola - Rossini</li>
-                    <li className={styles.li}>Sam - Un Ballo in Maschera - Verdi</li>
-                    <li className={styles.li}>Tom - Un Ballo in Maschera - Verdi</li>
-                    <li className={styles.li}>Montano - Otello - Verdi</li>
-                    <li className={styles.li}>Sparafucile - Rigoletto - Verdi</li>
-                    <li className={styles.li}>Reverend Hale - The Crucible - Ward</li>
+                    <li className={styles.li}><span className={styles.left}>Bizet</span><span className={styles.center}><em>Carmen</em></span><span className={styles.right}>Zuniga</span></li>
+                    <li className={styles.li}><span className={styles.left}>Handel</span><span className={styles.center} ><em>Semele</em></span><span className={styles.right}>Somnus/Cadmus (Cover)</span></li>
+                    <li className={styles.li}><span className={styles.left}>Menotti</span><span className={styles.center}><em>Amahl and the Night Visitors</em></span><span className={styles.right}>King Balthazar</span></li>
+                    <li className={styles.li}><span className={styles.left}>Menotti</span><span className={styles.center}><em>The Consul</em></span><span className={styles.right}>Mr. Kofner</span></li>
+                    <li className={styles.li}><span className={styles.left}>Monteverdi</span><span className={styles.center}><em>L'incoronazione di Poppea</em></span><span className={styles.right}>Seneca</span></li>
+                    <li className={styles.li}><span className={styles.left}>Mozart</span><span className={styles.center}><em>Don Giovanni</em></span><span className={styles.right}>Il Commendatore</span></li>
+                    <li className={styles.li}><span className={styles.left}>Mozart</span><span className={styles.center}><em>Don Giovanni</em></span><span className={styles.right}>Leporello</span></li>
+                    <li className={styles.li}><span className={styles.left}>Mozart</span><span className={styles.center}><em>Die Zauberflöte</em></span><span className={styles.right}>Sarastro</span></li>
+                    <li className={styles.li}><span className={styles.left}>Mozart</span><span className={styles.center}><em>Le Nozze di Figaro</em></span><span className={styles.right}>Dr. Bartolo</span></li>
+                    <li className={styles.li}><span className={styles.left}>Mozart</span><span className={styles.center}><em>Le Nozze di Figaro</em></span><span className={styles.right}>Antonio</span></li>
+                    <li className={styles.li}><span className={styles.left}>Puccini</span><span className={styles.center}><em>Gianni Schicchi</em></span><span className={styles.right}>Simone</span></li>
+                    <li className={styles.li}><span className={styles.left}>Puccini</span><span className={styles.center}><em>La Bohème</em></span><span className={styles.right}>Colline</span></li>
+                    <li className={styles.li}><span className={styles.left}>Rossini</span><span className={styles.center}><em>L'italiana in Algeri</em></span><span className={styles.right}>Mustafà</span></li>
+                    <li className={styles.li}><span className={styles.left}>Rossini</span><span className={styles.center}><em>La Cenerentola</em></span><span className={styles.right}>Alidoro</span></li>
+                    <li className={styles.li}><span className={styles.left}>Verdi</span><span className={styles.center}><em>Un Ballo in Maschera</em></span><span className={styles.right}>Sam</span></li>
+                    <li className={styles.li}><span className={styles.left}>Verdi</span><span className={styles.center}><em>Un Ballo in Maschera</em></span><span className={styles.right}>Tom</span></li>
+                    <li className={styles.li}><span className={styles.left}>Verdi</span><span className={styles.center}><em>Otello</em></span><span className={styles.right}>Montano</span></li>
+                    <li className={styles.li}><span className={styles.left}>Verdi</span><span className={styles.center}><em>Rigoletto</em></span><span className={styles.right}>Sparafucile</span></li>
+                    <li className={styles.li}><span className={styles.left}>Ward</span><span className={styles.center}><em>The Crucible</em></span><span className={styles.right}>Reverend Hale</span></li>
                 </ul>
             </div>
         </div>
