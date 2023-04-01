@@ -4,9 +4,11 @@ import Card from '../card/Card';
 import Card_p from '../card/Card_p';
 import n1 from '../images/n1.jpg';
 import upcoming_cards from '../upcoming_cards.js';
-import previous_cards from '../previous_cards.js';
-
-
+import prev23 from '../2023.js';
+import prev22 from '../2022.js';
+import prev21 from '../2021.js';
+import prev19 from '../2019.js';
+import prev18 from '../2018.js';
 
 function About() {
     return (
@@ -41,7 +43,67 @@ function About() {
 
             <h2 className={styles.h2}>Previous Performances:</h2>
             <div className={styles.previous_container}>
-                {previous_cards.map((card) => {
+                {prev23.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
+
+            <h3 className={styles.h3}>2022</h3>
+            <div className={styles.previous_container}>
+                {prev22.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
+
+            <h3 className={styles.h3}>2021</h3>
+            <div className={styles.previous_container}>
+                {prev21.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
+
+            <h3 className={styles.h3}>2019</h3>
+            <div className={styles.previous_container}>
+                {prev19.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
+
+            <h3 className={styles.h3}>2018</h3>
+            <div className={styles.previous_container}>
+                {prev18.map((card) => {
                     return <Card_p 
                     opera={card.opera}
                     role={card.role}
