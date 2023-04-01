@@ -77,7 +77,7 @@
 .message:focus {
     outline: none;
 }
-
+/* 
 .btn {
     width: 120px;
     height: 50px;
@@ -87,10 +87,32 @@
     border-radius: 10px;
     margin-bottom: 60px;
     border: none;
+} */
+
+/* .btn:hover {
+    background-color: rgb(46, 84, 44)
+} */
+
+.btn {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 30px auto;
+    padding: 7px 16px;
+    /* border-radius: 8px; */
+    background: linear-gradient(to left, #01140a94 50%, rgb(10, 86, 10) 50%) right;
+    background-size: 200% 100%;
+    background-color: #01140a94;
+    border: 1px solid rgb(55, 180, 55);
+    color: #f8f8f8;
 }
 
 .btn:hover {
-    background-color: rgb(46, 84, 44)
+    /* background: rgba(12, 164, 75, 1) */
+    /* background-position: left top; */
+    transition: all .7s ease-out;
+    background-position: left;
+    cursor: pointer;
 }
 
 
