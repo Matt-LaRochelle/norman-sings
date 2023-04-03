@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Resume.module.css';
 import n2 from '../images/N2.jpg';
 import n3 from '../images/N3.png';
+import nh from '../images/Norman Espinoza Headshot.jpg';
+import nr from '../images/Norman Opera Resume 2022 Fall.pdf';
 
 function Resume() {
     return (
@@ -9,11 +11,11 @@ function Resume() {
             <div className={styles.container}>
                 <div className={styles.nPhoto}>
                     <img className={styles.img} src={n2} />
-                    <button className={styles.btn}>Download Headshot</button>
+                    <a href={nh} download><button className={styles.btn}>Download Headshot</button></a>
                 </div>
                 <div className={styles.nResume}>
                     <img className={styles.img} src={n3} />
-                    <button className={styles.btn}>Download Resume</button>
+                    <a href={nr} download><button className={styles.btn}>Download Resume</button></a>
                 </div>
             </div>
             <div className={styles.prep}>

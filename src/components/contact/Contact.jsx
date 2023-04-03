@@ -1,8 +1,23 @@
 import React from 'react';
 import styles from './Contact.module.css';
 import N6 from '../images/N6.jpg'
+import emailjs from 'emailjs-com';
 
 function Contact() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_q2lwrpk', 'template_1u8hncq', e.target, 'glIU5aKO-dstGXEV2')
+          .then((result) => {
+              console.log(result.text);
+              alert("Your message has been sent.")
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+    }
+
     return (
         <div>
             <div className={styles.grid}>
@@ -10,15 +25,15 @@ function Contact() {
                     <img className={styles.img} src={N6} />
                 </div>
                 <div className={styles.gridItem2}>
-                    <form className={styles.container}>
+                    <form className={styles.container} onSubmit={sendEmail}>
                         <div className={styles.name}>
-                            <input type="text" placeholder="First Name" name="first_name"></input>
-                            <input type="text" placeholder="Last Name" name="last_name"></input>
+                            <input type="text" placeholder="First Name" name="first_name" required></input>
+                            <input type="text" placeholder="Last Name" name="last_name" required></input>
                         </div>
                         <div className={styles.content}>
-                            <input type="email" placeholder="Email" name="email"></input>
-                            <input type="text" placeholder="Subject" name="subject"></input>
-                            <textarea rows="8" cols="80" placeholder="Message" className={styles.message} name="message"></textarea>
+                            <input type="email" placeholder="Email" name="email" required></input>
+                            <input type="text" placeholder="Subject" name="subject" required></input>
+                            <textarea rows="8" cols="80" placeholder="Message" className={styles.message} name="message" required></textarea>
                             <button className={styles.btn} type="submit">Submit</button>
                         </div>
                     </form>
