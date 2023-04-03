@@ -32,7 +32,12 @@
 }
 
 .ul {
-    margin-top: 40px;
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+    height: 120px;
+    width: 240px;
+    overflow-y: auto;
+    padding-left: 20px;
 }
 
 .li {
@@ -45,15 +50,17 @@
     height: 200px;
     width: 200px;
     position: absolute;
-    right: 25px;
-    top: 123px;
+    right: 20px;
+    bottom: 20px;
     background-color: black;
     border: 2px solid #f8f8f8;
 }
 
 .p {
     position: absolute;
-    bottom: 20px;
+    bottom: 12px;
+    /* border: 2px solid blue; */
+    max-width: 250px;
 }
 
 @media screen and (max-width: 560px) {
@@ -64,8 +71,8 @@
     .img {
         width: 130px;
         height: 130px;
-        top: 193px;
-        right: 25px;
+        bottom: 20px;
+        right: 20px;
         
     }
 }

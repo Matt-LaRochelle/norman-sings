@@ -1,5 +1,3 @@
-
-
 .container {
     /* border: 3px solid red; */
 
@@ -8,9 +6,11 @@
     margin-left: 30px;
     margin-bottom: 30px;
     background-color: #01140a94;
+    border: 1px solid rgb(1, 77, 1);
     color: #f8f8f8;
     padding: 30px;
-    border: 1px solid rgb(1, 77, 1);
+    /* box-shadow: rgba(81, 236, 242, 0.9) 0px 0px 14px; */
+    
     position: relative;
 }
 
@@ -30,7 +30,12 @@
 }
 
 .ul {
-    margin-top: 40px;
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+    height: 120px;
+    width: 240px;
+    overflow-y: auto;
+    padding-left: 20px;
 }
 
 .li {
@@ -43,15 +48,17 @@
     height: 200px;
     width: 200px;
     position: absolute;
-    top: 123px;
-    right: 25px;
+    right: 20px;
+    bottom: 20px;
     background-color: black;
     border: 2px solid #f8f8f8;
 }
 
 .p {
     position: absolute;
-    bottom: 20px;
+    bottom: 12px;
+    /* border: 2px solid blue; */
+    max-width: 250px;
 }
 
 @media screen and (max-width: 560px) {
@@ -62,7 +69,8 @@
     .img {
         width: 130px;
         height: 130px;
-        top: 193px;
-        right: 25px;
+        bottom: 20px;
+        right: 20px;
+        
     }
 }
