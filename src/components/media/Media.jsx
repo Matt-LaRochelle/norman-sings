@@ -27,6 +27,10 @@ function Media() {
             <h1 className={styles.h1}>Photos</h1>
             <div className={styles.swiperBig}>
                 <Swiper
+                style={{
+                    "--swiper-navigation-color": "#fff",
+                    "--swiper-pagination-color": "#fff",
+                }}
                     slidesPerView={2}
                     spaceBetween={30}
                     loop={true}
@@ -47,6 +51,10 @@ function Media() {
             </div>
             <div className={styles.swiperSmall}>
                 <Swiper
+                style={{
+                    "--swiper-navigation-color": "#f8f8f8",
+                    "--swiper-pagination-color": "#f8f8f8",
+                }}
                     slidesPerView={1}
                     spaceBetween={30}
                     loop={true}
