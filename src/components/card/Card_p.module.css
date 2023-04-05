@@ -7,8 +7,8 @@
     min-width: 500px;
     margin-left: 30px;
     margin-bottom: 30px;
-    background-color: #3503036c;
-    border: 1px solid rgb(161, 5, 5);
+    background: linear-gradient(rgb(65, 2, 2), #350303a9);
+    /* border: 1px solid rgb(161, 5, 5); */
     color: #f8f8f8;
     padding: 30px;
     /* box-shadow: rgba(81, 236, 242, 0.9) 0px 0px 14px; */
