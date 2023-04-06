@@ -55,6 +55,7 @@
     font-size: 1.4rem;
     margin-top: 50px;
     font-weight: 300;
+    /* border: 2px solid red; */
 }
 
 .ul {
@@ -96,6 +97,14 @@
         padding: 10px 5px;
         font-size: 1rem;
         grid-template-columns: 100px 1fr 1fr;
-        grid-gap: 3rem;
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ul {
+        position: absolute;
+        left:0;
+        right: 0;
     }
 }
