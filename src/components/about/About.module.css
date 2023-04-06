@@ -92,4 +92,12 @@
     .h2 {
         font-size: 2rem;
     }
+
+    .previous_container {
+        padding-right: 0px;
+    }
+
+    .upcoming_container {
+        padding-right: 0px;
+    }
 }

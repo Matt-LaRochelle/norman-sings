@@ -79,10 +79,10 @@
 
 @media screen and (max-width: 400px) {
     .container {
-        position: static;
+        padding-right: 0px;
         display: block;
         margin: auto;
-        width: 85%;
+        width: 100%;
     }
 
     .h3 {
