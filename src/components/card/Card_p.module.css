@@ -7,7 +7,7 @@
     min-width: 500px;
     margin-left: 30px;
     margin-bottom: 30px;
-    background: linear-gradient(rgb(65, 2, 2), #350303a9);
+    background: linear-gradient(rgb(65, 2, 2), #35030300);
     /* border: 1px solid rgb(161, 5, 5); */
     color: #f8f8f8;
     padding: 30px;
@@ -79,6 +79,23 @@
 
 @media screen and (max-width: 400px) {
     .container {
+        position: static;
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    .h3 {
+        font-size: 1.4rem;
+    }
+
+    .img {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .p {
         position: static;
     }
 }

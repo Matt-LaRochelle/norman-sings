@@ -5,7 +5,7 @@
     min-width: 500px;
     margin-left: 30px;
     margin-bottom: 30px;
-    background: linear-gradient(rgb(1, 52, 9), #02300e5c) ;
+    background: linear-gradient(rgb(1, 52, 9), #02300e0b) ;
     /* border: 1px solid rgb(1, 77, 1); */
     color: #f8f8f8;
     padding: 30px;
@@ -72,5 +72,28 @@
         bottom: 20px;
         right: 20px;
         
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        position: static;
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    .h3 {
+        font-size: 1.4rem;
+    }
+
+    .img {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .p {
+        position: static;
     }
 }
