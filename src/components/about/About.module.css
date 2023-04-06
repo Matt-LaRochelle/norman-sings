@@ -87,3 +87,9 @@
         grid-gap: 1rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .h2 {
+        font-size: 2rem;
+    }
+}
