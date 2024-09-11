@@ -8,10 +8,12 @@
     margin-left: 30px;
     margin-bottom: 30px;
     background: linear-gradient(rgb(65, 2, 2), #35030300);
+    background: rgb(2, 65, 34);
+    background: rgb(0, 22, 11);
     /* border: 1px solid rgb(161, 5, 5); */
     color: #f8f8f8;
     padding: 30px;
-    /* box-shadow: rgba(81, 236, 242, 0.9) 0px 0px 14px; */
+    box-shadow: rgba(83, 85, 85, 0.9) 0px 0px 14px;
     
     position: relative;
 }
