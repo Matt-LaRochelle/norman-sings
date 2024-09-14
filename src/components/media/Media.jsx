@@ -153,6 +153,17 @@ function Media() {
                 <iframe 
                     width="100%" 
                     height="100%" 
+                    src="https://www.youtube.com/embed/5WbOWN5Bras?si=d7zKdLYYahIjIO9q" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                    className={styles.video}
+                    >
+                </iframe>
+                <iframe 
+                    width="100%" 
+                    height="100%" 
                     src="https://www.youtube.com/embed/reIkSa0WGo8" 
                     title="YouTube video player" 
                     frameborder="0" 
@@ -197,9 +208,9 @@ function Media() {
             </div>
             <div className={styles.testimonials}>
                 <h1 className={styles.h1}>Testimonials</h1>
-                <p className={styles.p}><em>Tremendous voice! Love the color, especially in the lower part of your voice. Intonation and inflection are very good.</em>  - CS Music 2021</p>
+                <p className={styles.p}><em>Tremendous voice! Love the color, especially in the lower part of his voice. Intonation and inflection are very good.</em>  - CS Music</p>
                 <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music 2021</p>
-                <p className={styles.p}><em>Wow! You are a wonderful singer/actor. You painted a complete picture that was just chilling. I loved the way you used dynamics in your powerful singing. And you also gave us a performance that used your entire instrument in a way that supported your voice beautifully. I believed every second! Bravo! </em> - CS Music 2021</p>
+                <p className={styles.p}><em>Wow! Norman a wonderful singer/actor. He painted a complete picture that was just chilling. I loved the way he used dynamics in his powerful singing. And he also gave us a performance that used his  entire instrument in a way that supported his voice beautifully. I believed every second! Bravo!</em> - CS Music 2021</p>
             </div>
             <h1 className={styles.h1}>Social Media</h1>
             <div className={styles.socials}>
