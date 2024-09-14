@@ -16,10 +16,12 @@ function About() {
             <h1 className={styles.h1}>About</h1>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <p className={styles.p}>Norman Espinoza, a Bass originally from San José California, has performed internationally and with numerous opera companies around the country. He is a graduate from San José State University where he obtained both his M.M. and B.M. in Vocal Performance. </p>
+                    <p className={styles.p}>Norman Espinoza, a Bass originally from San José California, has performed internationally and with numerous opera companies around the country. He is a graduate from San José State University where he obtained both his M.M. and B.M. in Vocal Performance.</p>
+                    <p className={styles.p}>Recognized for his powerful low notes, he has sung for Opera San José, Livermore Valley Opera, Lyric Opera Orange County, Opera Las Vegas, Opera Modesto, Berlin Opera Academy, Montefeltro Music Festival in Italy, and was recently a Chrisman Studio Artist for Opera Santa Barbara for their 2021-2022 season.</p>
+                    <p className={styles.p}>Roles Norman has sung include: Colline, Alidoro, Mustafà, Reverend Hale, Leporello, Il Commendatore, Sparafucile, Bartolo, Dr Grenvil, Seneca and Sarastro to name a few.</p>
                     {/* <p className={styles.p}>Recognized for his powerful low notes, he has sung for Opera San José, Lyric Opera Orange County, Opera Las Vegas, Berlin Opera Academy, Montefeltro Music Festival in Italy, and is currently a Chrisman Studio Artist for Opera Santa Barbara for their 2021-2022 season. </p>
                     <p className={styles.p}>Roles Norman has sung include: Colline, Alidoro, Reverend Hale, Il Commendatore, Sparafucile, Leporello, Bartolo, Seneca and Sarastro to name a few.</p> */}
-                    <p className={styles.p}>Norman now resides in Las Vegas, Nevada with his wife and and works closely with Opera Las Vegas. He also is a Gondolier Singer for the Venetian Resort and he would love take you on a ride on his gondola in Las Venice!</p>
+                    <p className={styles.p}>Norman now resides in Las Vegas, Nevada with his wife/new born son and works closely with Opera Las Vegas. He's also a Gondolier Singer for the Venetian Resort and he would love to take you on a ride on his gondola in Las Venice!</p>
                 </div>
                 <div className={styles.picture}>
                     <img className={styles.img} src={n1} />
