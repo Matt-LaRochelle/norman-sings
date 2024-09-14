@@ -44,6 +44,7 @@ function About() {
             </div>
 
             <h2 className={styles.h2}>Previous Performances:</h2>
+            <h3 className={styles.h3}>2023</h3>
             <div className={styles.previous_container}>
                 {prev23.map((card) => {
                     return <Card_p 
