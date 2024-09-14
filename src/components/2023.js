@@ -1,7 +1,17 @@
 import scs from './images/scs.png';
+import m from './images/modesto.jpg';
 
 
 const cards = [
+    {
+        opera: "Die Fledermaus",
+        role: "Frank",
+        link: "https://www.operamodesto.org/",
+        company: "Opera Modesto",
+        performances: ["October 13th 7:30pm"],
+        location: "Modesto, California",
+        image: m,
+    },
     {
         opera: "Tosca",
         role: "Il Segrastano (Role Debut)",
