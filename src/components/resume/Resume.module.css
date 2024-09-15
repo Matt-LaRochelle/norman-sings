@@ -42,12 +42,13 @@
     border-radius: 30px;
     border-style: solid;
     color: #f8f8f8;
+    transition: all .7s ease-out;
 }
 
 .btn:hover {
     /* background: rgba(12, 164, 75, 1) */
     /* background-position: left top; */
-    transition: all .7s ease-out;
+
     background: green;
     border-color: green;
     cursor: pointer;

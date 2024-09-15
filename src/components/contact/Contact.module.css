@@ -97,21 +97,29 @@
     display: block;
     text-align: center;
     font-size: 1.4rem;
+    font-weight: 600;
     margin: 30px auto;
     padding: 7px 16px;
+    padding: 15px 25px;
     /* border-radius: 8px; */
     background: linear-gradient(to left, #01140a94 50%, rgb(10, 86, 10) 50%) right;
+    background: #A1846E;
     background-size: 200% 100%;
-    background-color: #01140a94;
-    border: 1px solid rgb(55, 180, 55);
+    /* background-color: #01140a94; */
+    /* border: 1px solid rgb(55, 180, 55); */
+    border-color: #A1846E;
+    border-radius: 30px;
+    border-style: solid;
     color: #f8f8f8;
+    transition: all .7s ease-out;
 }
 
 .btn:hover {
     /* background: rgba(12, 164, 75, 1) */
     /* background-position: left top; */
-    transition: all .7s ease-out;
-    background-position: left;
+
+    background: green;
+    border-color: green;
     cursor: pointer;
 }
 
