@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-image: linear-gradient(100deg,rgb(28, 32, 29), rgb(36, 58, 39));
+    background: rgb(63, 62, 63);
     color: #f8f8f8;
 }
 
@@ -8,4 +11,5 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
+    font-family: "Montserrat", sans-serif;
 }

@@ -7,13 +7,16 @@
     min-width: 500px;
     margin-left: 30px;
     margin-bottom: 30px;
+    border-radius: 4px;
     background: linear-gradient(rgb(65, 2, 2), #35030300);
     background: rgb(2, 65, 34);
     background: rgb(0, 22, 11);
+    background: rgb(99, 99, 99);
     /* border: 1px solid rgb(161, 5, 5); */
     color: #f8f8f8;
     padding: 30px;
     box-shadow: rgba(71, 71, 71, 0.235) 4px 8px 17px 5px;
+    box-shadow: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
     
     position: relative;
 }
@@ -31,6 +34,8 @@
 
 .a:hover {
     color: rgb(237, 237, 127);
+    color: rgb(161, 132, 110);
+    color: rgb(191, 174, 161);
 }
 
 .ul {

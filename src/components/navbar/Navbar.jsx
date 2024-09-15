@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <header className={styles.navbar}>
             <div>
-            <h2 className={styles.title}>Norman Espinoza,</h2>
+            <h2 className={styles.title}>Norman Espinoza</h2>
             <p className={styles.bass}>Bass</p>
             </div>
             

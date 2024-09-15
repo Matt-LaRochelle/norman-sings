@@ -12,11 +12,14 @@
     display: inline;
     padding-top: 20px;
     padding-left: 30px;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .22rem;
 }
 
 .bass {
-    font-size: 2rem;
+    font-size: 2.7rem;
+    letter-spacing: .18rem;
     font-weight: 800;
     padding-left: 30px;
 }
