@@ -21,9 +21,6 @@ function Contact() {
     return (
         <div>
             <div className={styles.grid}>
-                <div className={styles.gridItem1}>
-                    <img className={styles.img} src={N6} />
-                </div>
                 <div className={styles.gridItem2}>
                     <form className={styles.container} onSubmit={sendEmail}>
                         <div className={styles.name}>
@@ -37,6 +34,9 @@ function Contact() {
                             <button className={styles.btn} type="submit">Submit</button>
                         </div>
                     </form>
+                </div>
+                <div className={styles.gridItem1}>
+                    <img className={styles.img} src={N6} />
                 </div>
             </div>
         </div>
