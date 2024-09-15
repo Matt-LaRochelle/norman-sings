@@ -29,11 +29,15 @@
     font-weight: 300;
     color: rgb(197, 164, 138);
 }
-
 .a:hover {
     color: rgb(237, 237, 127);
     color: rgb(191, 174, 161);
     color: rgb(76, 224, 76);
+}
+.a2 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #f8f8f8;
 }
 
 .ul {

@@ -5,7 +5,7 @@ function Card(props) {
     return (
         <div className={styles.container}>
             <h3 className={styles.h3}><em>{props.opera},</em> {props.role}</h3>
-            <a className={styles.a} href={props.link}>{props.company}</a>
+            <a className={props.link ? styles.a : styles.a2} href={props.link}>{props.company}</a>
             <img className={styles.img} src={props.image} />
             <ul className={styles.ul}>
                 {props.performances.map((performance) => {
