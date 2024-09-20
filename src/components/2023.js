@@ -1,5 +1,6 @@
 import scs from './images/scs.png';
 import m from './images/modesto.jpg';
+import olv from './images/olv.png';
 
 
 const cards = [
@@ -11,6 +12,15 @@ const cards = [
         performances: ["October 13th 7:30pm"],
         location: "Modesto, California",
         image: m,
+    },
+    {
+        opera: "La Traviata",
+        role: "Dottore Grenvil",
+        link: "https://operalasvegas.com/productions/la-traviata/",
+        company: "Opera Las Vegas",
+        performances: ["June 9th 7:30pm", "June 11th 2:00pm"],
+        location: "Las Vegas, Nevada",
+        image: olv
     },
     {
         opera: "Tosca",

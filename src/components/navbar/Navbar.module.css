@@ -82,7 +82,12 @@ a:active {
         z-index: 10;
         transition: left 1s;
     }
-
+    .title {
+        font-size: 1.25rem;
+    }
+    .bass {
+        font-size: 1.5rem;
+    }
     .active {
         left: 0;
         text-align: center;
