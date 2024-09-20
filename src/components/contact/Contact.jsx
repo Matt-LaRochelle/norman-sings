@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contact.module.css';
-import N6 from '../images/N6.jpg'
+import N6 from '../images/Norman_HS4.JPG';
 import emailjs from 'emailjs-com';
 
 function Contact() {
