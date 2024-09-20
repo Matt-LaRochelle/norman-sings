@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Resume.module.css';
-import n2 from '../images/N2.jpg';
-import n3 from '../images/N3.png';
-import nh from '../images/Norman Espinoza Headshot.jpg';
-import nr from '../images/Norman Opera Resume 2022 Fall.pdf';
+import n2 from '../images/Espinoza-HS .jpg';
+import n3 from '../images/Norman Opera Resume 2024.png';
+import nh from '../images/Espinoza-HS .jpg';
+import nr from '../images/Norman Opera Resume 2024.pdf';
 
 function Resume() {
     return (
