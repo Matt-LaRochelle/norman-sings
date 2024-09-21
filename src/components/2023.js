@@ -9,7 +9,7 @@ const cards = [
         role: "Frank",
         link: "https://www.operamodesto.org/",
         company: "Opera Modesto",
-        performances: ["October 13th 7:30pm"],
+        performances: ["October 13th 7:30pm", "October 15th 3:00pm"],
         location: "Modesto, California",
         image: m,
     },
