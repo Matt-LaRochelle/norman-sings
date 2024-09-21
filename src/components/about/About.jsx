@@ -22,6 +22,7 @@ function About() {
                     {/* <p className={styles.p}>Recognized for his powerful low notes, he has sung for Opera San José, Lyric Opera Orange County, Opera Las Vegas, Berlin Opera Academy, Montefeltro Music Festival in Italy, and is currently a Chrisman Studio Artist for Opera Santa Barbara for their 2021-2022 season. </p>
                     <p className={styles.p}>Roles Norman has sung include: Colline, Alidoro, Reverend Hale, Il Commendatore, Sparafucile, Leporello, Bartolo, Seneca and Sarastro to name a few.</p> */}
                     <p className={styles.p}>Norman now resides in Las Vegas, Nevada with his wife/new born son and works closely with Opera Las Vegas. He's also a Gondolier Singer for the Venetian Resort and he would love to take you on a ride on his gondola in Las Venice!</p>
+                    {/* <button className={styles.button}><a className={styles.a} href="https://popl.co/card/UXGRv0oe/1/s" target="_blank">Donate</a></button> */}
                 </div>
                 <div className={styles.picture}>
                     <img className={styles.img} src={n1} />
