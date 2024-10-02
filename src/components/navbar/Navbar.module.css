@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: .4rem;
+    /* border: 2px solid red; */
 }
 
 .title {
@@ -15,6 +16,7 @@
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: .22rem;
+    /* border: 2px solid orange; */
 }
 
 .bass {
@@ -22,13 +24,16 @@
     letter-spacing: .18rem;
     font-weight: 800;
     padding-left: 30px;
+    /* border: 2px solid yellow; */
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 15px;
+    /* border: 2px solid green; */
 }
 
 .li {
@@ -53,11 +58,27 @@ a:active {
     /* color: lime; */
 }
 
+.btn {
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    justify-self: center;
+    transition: all .5s;
+}
+.btn:hover {
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
 .mobile_btn {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
     .mobile_btn {
         display: block;
         position: absolute;
@@ -95,5 +116,13 @@ a:active {
 
     .navbar a {
         font-size: 2rem;
+    }
+    .btn {
+        background-color: #f8f8f8;
+        color: #333333;
+    }
+    .btn:hover {
+        background-color: #333333;
+        color: #f8f8f8;
     }
 }

@@ -5,6 +5,12 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 function Navbar() {
     const [nav, setNav] = useState(false);
+
+    const handleClick = () => {
+        window.open('https://popl.co/card/UXGRv0oe/1/s', '_blank');
+        setNav(false);
+    }
+
     return (
         <header className={styles.navbar}>
             <div>
@@ -83,6 +89,9 @@ function Navbar() {
                             return isActive ? "active" : isPending ? "pending" : "";
                         }}
                         >Contact</NavLink>
+                    </li>
+                    <li className={styles.li}>
+                        <button className={styles.btn} onClick={handleClick}>Donate</button>
                     </li>
                 </ul>
             </nav>
