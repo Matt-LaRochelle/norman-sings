@@ -78,7 +78,7 @@ a:active {
     display: none;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1030px) {
     .mobile_btn {
         display: block;
         position: absolute;
