@@ -50,6 +50,20 @@ function Navbar() {
                     </li>
                     <li className={styles.li}>
                         <NavLink 
+                        to="/gondaliers"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Gondaliers</NavLink>
+                    </li>
+                    <li className={styles.li}>
+                        <NavLink 
                         to="/resume"
                         onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
