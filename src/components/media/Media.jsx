@@ -5,6 +5,12 @@ import N11 from '../images/N11.jpeg';
 import N12 from '../images/N12.jpeg'
 import N13 from '../images/N13.jpeg'
 import N14 from '../images/N14.jpeg'
+import N1 from '../images/Norman_HS4.JPG';
+import N2 from '../images/Norman_HS3.JPG';
+import N3 from '../images/Norman_HS2.jpg';
+import N4 from '../images/Norman_HS1.jpg';
+import N5 from '../images/OMFrank.jpg';
+import N6 from '../images/OMFrank2.jpg';
 import N20 from '../images/N20.jpg';
 import N21 from '../images/N21.JPG';
 import N22 from '../images/N22.JPG';
@@ -56,7 +62,13 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N20} /></div></SwiperSlide>
+                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N20} /></div></SwiperSlide> */}
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N5} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N6} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N21} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N22} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N23} /></div></SwiperSlide>
@@ -67,9 +79,9 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N28} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N29} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N30} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N31} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N32} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N33} /></div></SwiperSlide>
+                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N31} /></div></SwiperSlide> */}
+                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N32} /></div></SwiperSlide> */}
+                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N33} /></div></SwiperSlide> */}
                 </Swiper>
             </div>
             <div className={styles.swiperSmall}>
