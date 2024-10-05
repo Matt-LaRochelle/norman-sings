@@ -1,5 +1,6 @@
 import olv from './images/olv.png';
 import scs from './images/scs.png';
+import unlv from './images/UNLV.PNG';
 
 const cards = [
     {
@@ -36,7 +37,7 @@ const cards = [
         company: "Album concert debut",
         performances: ["November 4th 3pm"],
         location: "UNLV Campus",
-        image: null
+        image: unlv
     }
 ]
 
