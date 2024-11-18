@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Gondaliers.module.css';
-import gondalier from '../images/gondola.JPG';
+import styles from './Gondoliers.module.css';
+import gondolier from '../images/gondola.JPG';
 
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
 
     return (
         <div>
-            <h1 className={styles.h1}>Gondaliers</h1>
+            <h1 className={styles.h1}>Gondoliers</h1>
             <div className={styles.container}>
                 <div className={styles.content}>
                     <p className={styles.p}>Besides being an international opera singer, Norman is also a gondolier at The Venetian Resort in Las Vegas Nevada. He works 5 days a week sharing his voice with his guests and giving them a beautiful experience. He works both on the inside and the outside ride and would love for you to come join him on his gondola.</p>
@@ -21,8 +21,8 @@ function About() {
                     <p className={styles.p}>Thank you for taking a ride and looking forward to your return!</p>
                 </div>
                 <div className={styles.picture}>
-                    <img className={styles.img} src={gondalier} />
-                    <p className={styles.img_label}>Gondalier Rides, Las Vegas, NV</p>
+                    <img className={styles.img} src={gondolier} />
+                    <p className={styles.img_label}>Gondolier Rides, Las Vegas, NV</p>
                 </div>
             </div>
             

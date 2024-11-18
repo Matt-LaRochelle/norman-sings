@@ -7,7 +7,7 @@ import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
 import Media from './components/media/Media';
 import Navbar from './components/navbar/Navbar';
-import Gondaliers from './components/gondaliers/Gondaliers';
+import Gondoliers from './components/gondoliers/Gondoliers';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="gondaliers" element={<Gondaliers />} />
+        <Route path="gondoliers" element={<Gondoliers />} />
         <Route path="resume" element={<Resume />} />
         <Route path="media" element={<Media />} />
         <Route path="contact" element={<Contact />} />
