@@ -1,30 +1,26 @@
 import React from 'react';
 import styles from './Media.module.css';
-import N10 from '../images/N10.jpg';
-import N11 from '../images/N11.jpeg';
-import N12 from '../images/N12.jpeg'
-import N13 from '../images/N13.jpeg'
-import N14 from '../images/N14.jpeg'
-import N1 from '../images/Norman_HS4.JPG';
-import N2 from '../images/Norman_HS3.JPG';
-import N3 from '../images/Norman_HS2.jpg';
-import N4 from '../images/Norman_HS1.jpg';
-import N5 from '../images/OMFrank.jpg';
-import N6 from '../images/OMFrank2.jpg';
-import N20 from '../images/N20.jpg';
-import N21 from '../images/N21.JPG';
-import N22 from '../images/N22.JPG';
-import N23 from '../images/N23.JPG';
-import N24 from '../images/N24.JPG';
-import N25 from '../images/N25.JPG';
-import N26 from '../images/N26.JPG';
-import N27 from '../images/N27.JPG';
-import N28 from '../images/N28.JPG';
-import N29 from '../images/N29.JPG';
-import N30 from '../images/N30.JPG';
-import N31 from '../images/N31.jpg';
-import N32 from '../images/N32.jpg';
-import N33 from '../images/N33.jpg';
+import headshot1 from '../images/Headshot1.jpg';
+import headshot2 from '../images/Headshot2.jpg';
+import headshot3 from '../images/Headshot3.jpg';
+import recital1 from '../images/recital1.jpeg';
+import fledermaus1 from '../images/Fledermaus1.jpg';
+import fledermaus2 from '../images/Fledermaus2.jpg';
+import fledermaus3 from '../images/Fledermaus3.jpeg';
+import OLVTraviata1 from '../images/OLVTraviata1.jpeg';
+import OLVTraviata3 from '../images/OLVTraviata3.jpeg';
+import OLVTraviata4 from '../images/OLVTraviata4.jpeg';
+import LettersToLilly1 from '../images/LettersToLilly1.jpeg';
+import LettersToLilly2 from '../images/LettersToLilly2.jpeg';
+import LettersToLilly3 from '../images/LettersToLilly3.jpeg';
+import LettersToLilly4 from '../images/LettersToLilly4.jpeg';
+import Mustafa1 from '../images/Mustafa1.JPG';
+import Mustafa2 from '../images/Mustafa2.JPG';
+import Mustafa3 from '../images/Mustafa3.JPG';
+import Mustafa4 from '../images/Mustafa4.JPG';
+import Mustafa5 from '../images/Mustafa5.JPG';
+import Mustafa6 from '../images/Mustafa6.JPG';
+import Mustafa7 from '../images/Mustafa7.JPG';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper";
@@ -62,26 +58,27 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N20} /></div></SwiperSlide> */}
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N5} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N6} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N21} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N22} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N23} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N24} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N25} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N26} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N27} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N28} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N29} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N30} /></div></SwiperSlide>
-                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N31} /></div></SwiperSlide> */}
-                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N32} /></div></SwiperSlide> */}
-                    {/* <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N33} /></div></SwiperSlide> */}
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={recital1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa5} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa6} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa7} /></div></SwiperSlide>
                 </Swiper>
             </div>
             <div className={styles.swiperSmall}>
@@ -100,20 +97,27 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N20} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N21} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N22} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N23} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N24} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N25} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N26} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N27} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N28} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N29} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N30} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N31} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N32} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={N33} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={recital1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa5} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa6} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa7} /></div></SwiperSlide>
                 </Swiper>
             </div>
             <h1 className={styles.h1}>Videos</h1>
