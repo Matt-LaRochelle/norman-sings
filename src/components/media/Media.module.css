@@ -69,14 +69,18 @@
 }
 
 .icon {
-    transition: all .5s ease-in;
+    transition: all .2s ease-in;
 }
 
 .instagram {
     background-image: linear-gradient(30deg,#3F3E3F, #3F3E3F, #3F3E3F, #3F3E3F, #3F3E3F);
     /* background-size: 100%; */
     border-radius: 10px;
-    transition: .5s ease-in;
+    transition: .2s ease-in;
+}
+.tiktok {
+    font-size: 2.3rem;
+    margin-bottom: 3.5px;
 }
 .instagram:hover {
     z-index: -1;
@@ -95,6 +99,11 @@
 
 .linkedin:hover {
     color: #0072b1
+}
+.tiktok:hover {
+    color: #69C9D0;
+    color: #EE1D52;
+    /* box-shadow: 0 0 20px #69C9D0, 0 0 30px #EE1D52, 0 0 40px #69C9D0, 0 0 50px #EE1D52; */
 }
 
 @media screen and (max-width: 860px) {
