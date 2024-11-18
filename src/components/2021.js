@@ -1,9 +1,9 @@
-import olv from './images/olv.png';
-import osb from './images/osb.png';
-import vco from './images/vco.png';
-import art from './images/art.png';
-import csuf from './images/csuf.png';
-import loooc from './images/loooc.png';
+import olv from './logos/olv2.png';
+import osb from './logos/osb.png';
+import vco from './logos/vco.png';
+import art from './logos/art.png';
+import csuf from './logos/csuf.png';
+import loooc from './logos/loooc.png';
 
 const cards = [
     {

@@ -1,5 +1,5 @@
-import jo from './images/jo.png';
-import sjsu from './images/sjsu.png';
+import jo from './logos/jo.png';
+import sjsu from './logos/sjsu.png';
 
 const cards = [
     {

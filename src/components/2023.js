@@ -1,6 +1,6 @@
-import scs from './images/scs.png';
-import m from './images/modesto.jpg';
-import olv from './images/olv.png';
+import scs from './logos/scs.png';
+import m from './logos/modesto.jpg';
+import olv from './logos/olv2.png';
 
 
 const cards = [

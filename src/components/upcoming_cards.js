@@ -1,6 +1,6 @@
-import olv from './images/olv.png';
-import scs from './images/scs.png';
-import unlv from './images/UNLV.PNG';
+import olv from './logos/olv2.png';
+import scs from './logos/scs.png';
+import unlv from './logos/UNLV.PNG';
 
 const cards = [
     {

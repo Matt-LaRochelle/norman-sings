@@ -1,5 +1,5 @@
-import vnm from './images/VNM.png';
-import boa from './images/boa.png';
+import vnm from './logos/VNM.png';
+import boa from './logos/boa.png';
 
 const cards = [
     {
