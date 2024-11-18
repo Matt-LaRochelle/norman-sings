@@ -58,7 +58,7 @@ a:active {
     /* color: lime; */
 }
 
-.btn {
+/* .btn {
     background-color: #333333;
     color: white;
     padding: 10px 20px;
@@ -72,13 +72,13 @@ a:active {
 .btn:hover {
     background-color: #f8f8f8;
     color: #333333;
-}
+} */
 
 .mobile_btn {
     display: none;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 900px) {
     .mobile_btn {
         display: block;
         position: absolute;
@@ -117,12 +117,12 @@ a:active {
     .navbar a {
         font-size: 2rem;
     }
-    .btn {
+    /* .btn {
         background-color: #f8f8f8;
         color: #333333;
     }
     .btn:hover {
         background-color: #333333;
         color: #f8f8f8;
-    }
+    } */
 }

@@ -4,13 +4,21 @@ import gondalier from '../images/gondalier.jpg';
 
 
 function About() {
+
+    const handleClick = () => {
+        window.open('https://popl.co/card/UXGRv0oe/1/s', '_blank');
+    }
+
     return (
         <div>
             <h1 className={styles.h1}>Gondaliers</h1>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p className={styles.p}>Iaculis sagittis non id viverra lacinia. Natoque parturient ad, urna justo blandit rhoncus. Netus consequat maximus eget ligula ultrices rhoncus nisl. Pretium purus condimentum leo facilisi inceptos quam sed lobortis.</p>
+                    <p className={styles.p}>Besides being an international opera singer, Norman is also a gondolier at The Venetian Resort in Las Vegas Nevada. He works 5 days a week sharing his voice with his guests and giving them a beautiful experience. He works both on the inside and the outside ride and would love for you to come join him on his gondola.</p>
+                    <p className={styles.p}>If you were already one of his guests, feel free to follow him on any of his social media platforms. He would also appreciate any gratuity you would like to provide him for the wonderful experience.. (Link below)</p>
+                    {/* Donate button */}
+                    <button className={styles.btn} onClick={handleClick}>Donate</button>
+                    <p className={styles.p}>Thank you for taking a ride and looking forward to your return!</p>
                 </div>
                 <div className={styles.picture}>
                     <img className={styles.img} src={gondalier} />
