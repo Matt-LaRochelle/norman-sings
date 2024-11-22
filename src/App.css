@@ -13,3 +13,22 @@ body {
     font-family: poppins;
     font-family: "Montserrat", sans-serif;
 }
+
+button {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px 25px;
+    background-color: #A1846E;
+    border-color: #A1846E;
+    border-radius: 30px;
+    border-style: solid;
+    color: #f8f8f8;
+    transition: all .7s ease-out;
+}
+
+button:hover {
+    background: green;
+    border-color: green;
+    cursor: pointer;
+}

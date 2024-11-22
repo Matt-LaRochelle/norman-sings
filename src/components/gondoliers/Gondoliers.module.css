@@ -13,26 +13,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.2rem;
-    /* border: 2px solid  */
 }
 
 .btn {
-    background-color: #333333;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    cursor: pointer;
     display: block;
     margin: 0 auto 20px;
-
-    /* justify-self: center; */
-    transition: all .5s;
-}
-.btn:hover {
-    background-color: #f8f8f8;
-    color: #333333;
 }
 .a {
     color: #333;
@@ -54,21 +39,11 @@
     padding-right: 30px;
 }
 
-.content {
-    /* border: 2px solid lime; */
-}
-
-.picture {
-    /* border: 2px solid aqua; */
-}
-
 .img {
     height: auto;
     width: 95%;
     margin-top: 3px;
-    /* border-radius: 10px; */
     margin: auto;
-    /* border: 2px solid blue; */
 }
 
 .img_label {

@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.4rem;
-    /* border: 2px solid white; */
     width: 95%;
     margin: 20px auto;
 }
@@ -10,13 +9,11 @@
 .nPhoto {
     margin-top: 20px;
     width: 100%;
-    /* border: 2px solid aqua; */
 }
 
 .nResume {
     margin-top: 20px;
     width: 100%;
-    /* border: 2px solid lime; */
 }
 
 .img {
@@ -27,42 +24,13 @@
 
 .btn {
     display: block;
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 600;
     margin: 30px auto;
-    padding: 15px 25px;
-    /* border-radius: 8px; */
-    /* background: linear-gradient(to left, #01140a94 50%, rgb(10, 86, 10) 50%) right; */
-    /* background-size: 200% 100%; */
-    background-color: #01140a94;
-    background-color: #A1846E;
-    /* border: 1px solid rgb(55, 180, 55); */
-    border-color: #A1846E;
-    border-radius: 30px;
-    border-style: solid;
-    color: #f8f8f8;
-    transition: all .7s ease-out;
 }
-
-.btn:hover {
-    /* background: rgba(12, 164, 75, 1) */
-    /* background-position: left top; */
-
-    background: green;
-    border-color: green;
-    cursor: pointer;
-}
-
-
-
-
 .prep {
     padding: 30px;
     font-size: 1.4rem;
     margin-top: 50px;
     font-weight: 300;
-    /* border: 2px solid red; */
 }
 
 .ul {
@@ -72,13 +40,10 @@
 .li {
     list-style-type: none;
     padding: 20px;
-    background: rgb(181, 197, 181);
     background: rgb(226, 226, 226);
     color: #333;
     min-width: 360px;
-    /* position: relative; */
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 150px 1fr 1fr;
     grid-gap: 2rem;
 }
@@ -99,10 +64,6 @@
 
 @media screen and (max-width: 600px) {
     .li {
-        /* padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px; */
         padding: 10px 5px;
         font-size: 1rem;
         grid-template-columns: 100px 1fr 1fr;

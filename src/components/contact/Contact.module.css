@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
-    /* border: 2px solid white; */
     grid-gap: 1rem;
     padding: 30px;
 }
@@ -11,30 +10,22 @@
     width: 100%;
     height: 600px;
     object-fit: cover;
-    /* border: 2px solid lime; */
 }
 
 .container {
-    /* position: absolute; */
     width: 100%;
-    /* border: 2px solid red; */
-    /* right: 0px; */
-    /* border: 2px solid aqua; */
-
 }
 
 .name {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
-    /* border: 2px solid yellow; */
 }
 
 .name input {
     width: 30%;
     height: 60px;
     font-size: 1.2rem;
-    /* border-radius: 10px; */
     padding: 10px;
     border-style: none;
 }
@@ -47,8 +38,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* border: 2px solid lime; */
 }
 
 .content input {
@@ -56,7 +45,6 @@
     font-size: 1.2rem;
     margin-bottom: 30px;
     width: 73.3333%;
-    /* border-radius: 10px; */
     padding: 10px;
     border-style: none;
 }
@@ -66,65 +54,22 @@
 }
 
 .message {
-    /* height: 400px; */
     height: fit-content;
     font-size: 1.2rem;
     margin-bottom: 30px;
     width: 73.3333%;
-    /* border-radius: 10px; */
     padding: 10px;
     border: none;
     resize: none;
-    /* border: 2px solid aqua; */
 }
 
 .message:focus {
     outline: none;
 }
-/* 
-.btn {
-    width: 120px;
-    height: 50px;
-    font-size: 1.4rem;
-    background-color: rgba(46, 84, 44, .9);
-    color: #f8f8f8;
-    border-radius: 10px;
-    margin-bottom: 60px;
-    border: none;
-} */
-
-/* .btn:hover {
-    background-color: rgb(46, 84, 44)
-} */
 
 .btn {
     display: block;
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 600;
     margin: 30px auto;
-    padding: 7px 16px;
-    padding: 15px 25px;
-    /* border-radius: 8px; */
-    background: linear-gradient(to left, #01140a94 50%, rgb(10, 86, 10) 50%) right;
-    background: #A1846E;
-    background-size: 200% 100%;
-    /* background-color: #01140a94; */
-    /* border: 1px solid rgb(55, 180, 55); */
-    border-color: #A1846E;
-    border-radius: 30px;
-    border-style: solid;
-    color: #f8f8f8;
-    transition: all .7s ease-out;
-}
-
-.btn:hover {
-    /* background: rgba(12, 164, 75, 1) */
-    /* background-position: left top; */
-
-    background: green;
-    border-color: green;
-    cursor: pointer;
 }
 
 
@@ -156,15 +101,6 @@
     .btn:hover {
         border: 2px solid #f8f8f8;
     }
-/* 
-    .content input {
-        background-color: rgba(255, 255, 255, 0.9)
-    }
-
-    .message {
-        background-color: rgba(255, 255, 255, 0.9);
-        height: 268px;
-    } */
 }
 
 
