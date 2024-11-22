@@ -234,7 +234,8 @@ function Media() {
                 <a href="https://www.facebook.com/NormanBassoEspinoza" target="_blank"><AiFillFacebook className={`${styles.icon} ${styles.facebook}`}/></a>
                 <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ" target="_blank"><AiFillYoutube className={`${styles.icon} ${styles.youtube}`}/></a>
                 <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/" target="_blank"><AiFillLinkedin className={`${styles.icon} ${styles.linkedin}`}/></a>
-                <a href="https://www.tiktok.com/@normanno.espinoza" target="_blank"><FaTiktok className={`${styles.icon} ${styles.tiktok}`}/></a>
+                <a href="https://www.tiktok.com/@normanno.espinoza" target="_blank"><div className={styles.tiktokdiv}><FaTiktok className={`${styles.icon} ${styles.tiktok}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok1}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok2}`}/></div></a>
+                
             </div>
         </div>
     );

@@ -24,7 +24,7 @@ button {
     border-radius: 30px;
     border-style: solid;
     color: #f8f8f8;
-    transition: all .7s ease-out;
+    transition: all .3s ease-out;
 }
 
 button:hover {

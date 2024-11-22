@@ -1,20 +1,14 @@
-.swiperBig {
-    /* border: 2px solid lime; */
-}
-
 .swiperSmall {
     display: none;
 }
 
 .mySwiper {
-    /* border: 2px solid white; */
     margin: 30px;
     height: 430px;
     width: 95%;
 }
 
 .slide {
-    /* border: 2px solid magenta; */
     position: relative;
     height: 100%;
     width: 100%;
@@ -26,7 +20,6 @@
     width: 400px;
     object-fit: cover;
     box-shadow: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
-    /* border: 2px solid lime; */
 }
 
 .videos {
@@ -36,15 +29,10 @@
     grid-auto-rows: 50vh;
     grid-gap: 3rem;
     justify-content: space-evenly;
-    /* border: 2px solid green; */
 }
 
 .video {
     box-shadow: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
-    /* border: 2px solid pink; */
-    /* box-shadow: rgba(225, 81, 41, 0.9) 0px 0px 12px 4px; */
-    /* border-left: 5px solid rgb(20, 118, 20);
-    border-bottom: 9px solid rgb(2, 60, 2); */
 }
 
 .h1 {
@@ -72,23 +60,15 @@
 .icon {
     transition: all .2s ease-in;
 }
-.youtube {
-    font-size: 4rem;
-}
+
 .instagram {
     background-image: linear-gradient(30deg,#3F3E3F, #3F3E3F, #3F3E3F, #3F3E3F, #3F3E3F);
-    /* background-size: 100%; */
     border-radius: 10px;
     transition: .2s ease-in;
-}
-.tiktok {
-    font-size: 2.43rem;
-    margin-bottom: 3px;
 }
 .instagram:hover {
     z-index: -1;
     background-image: linear-gradient(30deg,#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
-    /* background-size: 100%; */
     border-radius: 10px;
 }
 
@@ -96,6 +76,9 @@
     color: #3b5998;
 }
 
+.youtube {
+    font-size: 4rem;
+}
 .youtube:hover {
     color: #c4302b;
 }
@@ -103,10 +86,44 @@
 .linkedin:hover {
     color: #0072b1
 }
+
+.tiktokdiv {
+    position: relative;
+}
+.tiktok {
+    font-size: 2.43rem;
+    margin-bottom: 3px;
+}
 .tiktok:hover {
+    z-index: 10;
+}
+.tiktok1 {
     color: #69C9D0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 2.43rem;
+    z-index: -4;
+}
+.tiktok2 {
     color: #EE1D52;
-    /* box-shadow: 0 0 20px #69C9D0, 0 0 30px #EE1D52, 0 0 40px #69C9D0, 0 0 50px #EE1D52; */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 2.43rem;
+    z-index: -1;
+}
+.tiktokdiv:hover .tiktok1 {
+    opacity: 1;
+    transform: translate(1px, 1px);
+}
+.tiktokdiv:hover .tiktok2 {
+    opacity: 1;
+    transform: translate(-1px, -1px);
 }
 
 @media screen and (max-width: 860px) {
