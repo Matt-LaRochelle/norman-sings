@@ -235,18 +235,22 @@ function Media() {
                 <div className={styles.audioGrid}>
                     <img className={styles.img} src={LongTheseDays} alt="Long These Days" />
                     <div className={styles.audioSamples}>
+                        <p className={styles.p}>Mañana</p>
                         <audio controls>
                             <source src={AudioSample1} type="audio/wav" />
                             Your browser does not support the audio element.
                         </audio>
+                        <p className={styles.p}>Mediodía</p>
                         <audio controls>
                             <source src={AudioSample2} type="audio/wav" />
                             Your browser does not support the audio element.
                         </audio>
+                        <p className={styles.p}>Tarde</p>
                         <audio controls>
                             <source src={AudioSample3} type="audio/wav" />
                             Your browser does not support the audio element.
                         </audio>
+                        <p className={styles.p}>Noche</p>
                         <audio controls>
                             <source src={AudioSample4} type="audio/wav" />
                             Your browser does not support the audio element.
