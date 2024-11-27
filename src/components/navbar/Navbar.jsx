@@ -50,20 +50,6 @@ function Navbar() {
                     </li>
                     <li className={styles.li}>
                         <NavLink 
-                        to="/gondoliers"
-                        onClick={()=> setNav(false)}
-                        style={({ isActive, isPending }) => {
-                            return {
-                            textDecoration: isActive ? "underline" : "inherit",
-                            };
-                        }}
-                        className={({ isActive, isPending }) => {
-                            return isActive ? "active" : isPending ? "pending" : "";
-                        }}
-                        >Gondoliers</NavLink>
-                    </li>
-                    <li className={styles.li}>
-                        <NavLink 
                         to="/resume"
                         onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
@@ -89,6 +75,20 @@ function Navbar() {
                             return isActive ? "active" : isPending ? "pending" : "";
                         }}
                         >Media</NavLink>
+                    </li>
+                    <li className={styles.li}>
+                        <NavLink 
+                        to="/gondoliers"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Gondoliers</NavLink>
                     </li>
                     <li className={styles.li}>
                         <NavLink 
