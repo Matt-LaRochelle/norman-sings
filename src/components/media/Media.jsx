@@ -21,6 +21,7 @@ import Mustafa4 from '../images/Mustafa4.JPG';
 import Mustafa5 from '../images/Mustafa5.JPG';
 import Mustafa6 from '../images/Mustafa6.JPG';
 import Mustafa7 from '../images/Mustafa7.JPG';
+import LongTheseDays from '../logos/LongTheseDays.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper";
@@ -222,11 +223,17 @@ function Media() {
                     >
                 </iframe>
             </div>
+            <div className={styles.audio}>
+                <h1 className={styles.h1}>Audio</h1>
+                <p className={styles.p}><em className={styles.embold}>Long These Days</em> is an art song concept album composed by Jennifer Bellor, featuring soprano Olivia Yokers, bass Norman Espinoza, electric guitarist Tasos Peltekis, and Bellor, herself, on piano.</p>
+                <p className={styles.p}>Here you can listen to Norman’s Grammy nominated Spanish Cycle, <em>Cuatro Canciones de las Últimas Horas:</em></p>
+                <img className={styles.img} src={LongTheseDays} />
+            </div>
             <div className={styles.testimonials}>
                 <h1 className={styles.h1}>Testimonials</h1>
                 <p className={styles.p}><em>Tremendous voice! Love the color, especially in the lower part of his voice. Intonation and inflection are very good.</em>  - CS Music</p>
-                <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music 2021</p>
-                <p className={styles.p}><em>Wow! Norman a wonderful singer/actor. He painted a complete picture that was just chilling. I loved the way he used dynamics in his powerful singing. And he also gave us a performance that used his  entire instrument in a way that supported his voice beautifully. I believed every second! Bravo!</em> - CS Music 2021</p>
+                <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music</p>
+                <p className={styles.p}><em>Wow! Norman a wonderful singer/actor. He painted a complete picture that was just chilling. I loved the way he used dynamics in his powerful singing. And he also gave us a performance that used his  entire instrument in a way that supported his voice beautifully. I believed every second! Bravo!</em> - CS Music</p>
             </div>
             <h1 className={styles.h1}>Social Media</h1>
             <div className={styles.socials}>
