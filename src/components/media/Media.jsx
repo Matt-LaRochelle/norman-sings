@@ -21,7 +21,12 @@ import Mustafa4 from '../images/Mustafa4.JPG';
 import Mustafa5 from '../images/Mustafa5.JPG';
 import Mustafa6 from '../images/Mustafa6.JPG';
 import Mustafa7 from '../images/Mustafa7.JPG';
+
 import LongTheseDays from '../logos/LongTheseDays.png';
+import AudioSample1 from '../audio/Mañana.wav';
+import AudioSample2 from '../audio/Mediodía.wav';
+import AudioSample3 from '../audio/Tarde.wav';
+import AudioSample4 from '../audio/Noche.wav';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper";
@@ -227,7 +232,27 @@ function Media() {
                 <h1 className={styles.h1}>Audio</h1>
                 <p className={styles.p}><em className={styles.embold}>Long These Days</em> is an art song concept album composed by Jennifer Bellor, featuring soprano Olivia Yokers, bass Norman Espinoza, electric guitarist Tasos Peltekis, and Bellor, herself, on piano.</p>
                 <p className={styles.p}>Here you can listen to Norman’s Grammy nominated Spanish Cycle, <em>Cuatro Canciones de las Últimas Horas:</em></p>
-                <img className={styles.img} src={LongTheseDays} />
+                <div className={styles.audioGrid}>
+                    <img className={styles.img} src={LongTheseDays} alt="Long These Days" />
+                    <div className={styles.audioSamples}>
+                        <audio controls>
+                            <source src={AudioSample1} type="audio/wav" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio controls>
+                            <source src={AudioSample2} type="audio/wav" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio controls>
+                            <source src={AudioSample3} type="audio/wav" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio controls>
+                            <source src={AudioSample4} type="audio/wav" />
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
             </div>
             <div className={styles.testimonials}>
                 <h1 className={styles.h1}>Testimonials</h1>

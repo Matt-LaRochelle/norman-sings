@@ -50,8 +50,27 @@
 .embold {
     font-weight: 600;
 }
+.audioGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid red;
+}
 .audio .img {
     margin: 30px;
+    border: 2px solid orange;
+}
+.audioSamples {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-auto-rows: 50vh; */
+    justify-content: space-evenly;
+    border: 2px solid yellow;
+}
+.audioSamples audio {
+    border: 2px solid green;
+    margin: 40px;
+    color: blue;
+    background-color: green;
 }
 .socials {
     display: flex;
