@@ -78,7 +78,7 @@ function Navbar() {
                     </li>
                     <li className={styles.li}>
                         <NavLink 
-                        to="/gondoliers"
+                        to="/gondola"
                         onClick={()=> setNav(false)}
                         style={({ isActive, isPending }) => {
                             return {
@@ -88,7 +88,7 @@ function Navbar() {
                         className={({ isActive, isPending }) => {
                             return isActive ? "active" : isPending ? "pending" : "";
                         }}
-                        >Gondoliers</NavLink>
+                        >Gondola</NavLink>
                     </li>
                     <li className={styles.li}>
                         <NavLink 
