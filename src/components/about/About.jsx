@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
 import Card from '../card/Card';
-import Card_p from '../card/Card_p';
 import n1 from '../images/n1.jpg';
 import upcoming_cards from '../upcoming_cards.js';
 import prev24 from '../2024.js';
@@ -47,7 +46,7 @@ function About() {
             <h2>2024</h2>
             <div className={styles.previous_container}>
                 {prev24.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}
@@ -61,7 +60,7 @@ function About() {
             <h2>2023</h2>
             <div className={styles.previous_container}>
                 {prev23.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}
@@ -76,7 +75,7 @@ function About() {
             <h2>2022</h2>
             <div className={styles.previous_container}>
                 {prev22.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}
@@ -91,7 +90,7 @@ function About() {
             <h2>2021</h2>
             <div className={styles.previous_container}>
                 {prev21.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}
@@ -106,7 +105,7 @@ function About() {
             <h2>2019</h2>
             <div className={styles.previous_container}>
                 {prev19.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}
@@ -121,7 +120,7 @@ function About() {
             <h2>2018</h2>
             <div className={styles.previous_container}>
                 {prev18.map((card) => {
-                    return <Card_p 
+                    return <Card 
                     opera={card.opera}
                     role={card.role}
                     link={card.link}

@@ -36,18 +36,19 @@
     list-style-type: none;
     margin-right: 20px;
     font-weight: 300;
+    color: var(--primary-100);
 }
 
 .li:hover {
     text-decoration: underline;
+    color: var(--tertiary-100);
 }
 
 
 a {
     text-decoration: none;
-    color: var(--primary-100);
+    color: inherit;
 }
-
 a:active {
     text-decoration: underline;
 }
