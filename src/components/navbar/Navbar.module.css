@@ -3,38 +3,38 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: .4rem;
+    align-items: baseline;
 }
-
-.title {
-    display: inline;
-    padding-top: 20px;
+.name {
     padding-left: 30px;
+    padding-top: 1rem;
+}
+.title {
+    padding: 0;
+    margin: 0;
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: .22rem;
 }
-
 .bass {
     font-size: 2.7rem;
     letter-spacing: .18rem;
     font-weight: 800;
-    padding-left: 30px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: center;
-    margin-top: 15px;
+    align-items: flex-start;
+    margin-top: 0px;
 }
 
 .li {
     list-style-type: none;
     margin-right: 20px;
-    margin-bottom: 10px;
     font-weight: 300;
 }
 
@@ -61,14 +61,15 @@ a:active {
         display: block;
         position: absolute;
         right: 1rem;
+        top: 1rem;
         cursor: pointer;
         z-index: 10;
     }
-
     .menu {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         position: fixed;
         left: -100%;
         right: 0;
@@ -91,7 +92,6 @@ a:active {
         left: 0;
         text-align: center;
     }
-
     .navbar a {
         font-size: 2rem;
     }

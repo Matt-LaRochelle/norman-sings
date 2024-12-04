@@ -13,9 +13,9 @@ function Navbar() {
 
     return (
         <header className={styles.navbar}>
-            <div>
-            <h2 className={styles.title}>Norman Espinoza</h2>
-            <p className={styles.bass}>Bass</p>
+            <div className={styles.name}>
+                <h1 className={styles.title}>Norman Espinoza</h1>
+                <h2 className={styles.bass}>Bass</h2>
             </div>
             
             <nav>
