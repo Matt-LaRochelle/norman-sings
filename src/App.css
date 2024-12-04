@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    background-image: linear-gradient(100deg,rgb(28, 32, 29), rgb(36, 58, 39));
-    background: rgb(63, 62, 63);
-    color: #f8f8f8;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -14,21 +8,33 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+:root {
+    --primary: hsl(0, 0%, 97%);
+    --secondary: hsl(26, 21%, 53%);
+    --tertiary: hsl(120, 100%, 25%);
+}
+
+body {
+    background-image: linear-gradient(100deg,rgb(28, 32, 29), rgb(36, 58, 39));
+    background: rgb(63, 62, 63);
+    color: var(--primary);
+}
+
 button {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
     padding: 15px 25px;
-    background-color: #A1846E;
-    border-color: #A1846E;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
     border-radius: 30px;
     border-style: solid;
-    color: #f8f8f8;
+    color: var(--primary);
     transition: all .3s ease-out;
 }
 
 button:hover {
-    background: green;
-    border-color: green;
+    background: var(--tertiary);
+    border-color: var(--tertiary);
     cursor: pointer;
 }
