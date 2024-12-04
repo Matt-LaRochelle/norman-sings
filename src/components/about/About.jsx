@@ -4,6 +4,7 @@ import Card from '../card/Card';
 import Card_p from '../card/Card_p';
 import n1 from '../images/n1.jpg';
 import upcoming_cards from '../upcoming_cards.js';
+import prev24 from '../2024.js';
 import prev23 from '../2023.js';
 import prev22 from '../2022.js';
 import prev21 from '../2021.js';
@@ -43,6 +44,20 @@ function About() {
             </div>
 
             <h2 className={styles.h2}>Previous Performances:</h2>
+            <h3 className={styles.h3}>2024</h3>
+            <div className={styles.previous_container}>
+                {prev24.map((card) => {
+                    return <Card_p 
+                    opera={card.opera}
+                    role={card.role}
+                    link={card.link}
+                    company={card.company}
+                    performances={card.performances}
+                    location={card.location}
+                    image={card.image}
+                />
+                })}
+            </div>
             <h3 className={styles.h3}>2023</h3>
             <div className={styles.previous_container}>
                 {prev23.map((card) => {

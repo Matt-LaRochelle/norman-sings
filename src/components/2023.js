@@ -2,7 +2,6 @@ import scs from './logos/scs.png';
 import m from './logos/modesto.jpg';
 import olv from './logos/olv2.png';
 
-
 const cards = [
     {
         opera: "Die Fledermaus",
