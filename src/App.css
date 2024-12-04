@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
     font-family: "Montserrat", sans-serif;
 }
-
 :root {
     --primary-100: hsl(0, 0%, 97%);
     --primary-200: hsl(0, 0%, 89%);
@@ -17,13 +14,11 @@
     --tertiary-200: hsl(120, 100%, 25%);
     --shadow-light: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
 }
-
 body {
     background-image: linear-gradient(100deg,rgb(28, 32, 29), rgb(36, 58, 39));
     background: rgb(63, 62, 63);
     color: var(--primary-100);
 }
-
 h1 {
     font-size: 3rem;
     padding: 30px;
@@ -35,7 +30,6 @@ h2 {
     margin-bottom: 20px;
     font-weight: 500;
 }
-
 button {
     text-align: center;
     font-size: 1.4rem;
@@ -48,13 +42,11 @@ button {
     color: var(--primary-100);
     transition: all .3s ease-out;
 }
-
 button:hover {
     background: var(--tertiary-200);
     border-color: var(--tertiary-200);
     cursor: pointer;
 }
-
 
 @media screen and (max-width: 760px) {
     h1 {
