@@ -7,8 +7,7 @@
     background: rgb(99, 99, 99);
     color: var(--primary-100);
     padding: 30px;
-    box-shadow: rgba(71, 71, 71, 0.235) 0px 8px 17px 5px;
-    box-shadow: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
+    box-shadow: var(--shadow-light);
     position: relative;
 }
 

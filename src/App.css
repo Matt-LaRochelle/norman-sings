@@ -15,6 +15,7 @@
     --secondary-200: hsl(26, 21%, 53%);
     --tertiary-100: hsl(120, 70%, 59%);
     --tertiary-200: hsl(120, 100%, 25%);
+    --shadow-light: hsla(0, 0%, 7%, 0.411) 0 1px 10px;
 }
 
 body {
