@@ -14,7 +14,7 @@ import prev18 from '../2018.js';
 function About() {
     return (
         <div>
-            <h1 className={styles.h1}>About</h1>
+            <h1>About</h1>
             <div className={styles.container}>
                 <div className={styles.content}>
                     <p className={styles.p}>Norman Espinoza, a Bass originally from San José California, has performed internationally and with numerous opera companies around the country. He is a graduate from San José State University where he obtained both his M.M. and B.M. in Vocal Performance.</p>
@@ -28,7 +28,7 @@ function About() {
                     <p className={styles.img_label}>Al Ringling Theatre @ Baraboo, WI</p>
                 </div>
             </div>
-            <h2 className={styles.h2}>Upcoming Performances:</h2>
+            <h1>Upcoming Performances:</h1>
             <div className={styles.upcoming_container}>
                 {upcoming_cards.map((card) => {
                     return <Card 
@@ -43,8 +43,8 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>Previous Performances:</h2>
-            <h3 className={styles.h3}>2024</h3>
+            <h1>Previous Performances:</h1>
+            <h2 className={styles.h2}>2024</h2>
             <div className={styles.previous_container}>
                 {prev24.map((card) => {
                     return <Card_p 
@@ -58,7 +58,7 @@ function About() {
                 />
                 })}
             </div>
-            <h3 className={styles.h3}>2023</h3>
+            <h2 className={styles.h2}>2023</h2>
             <div className={styles.previous_container}>
                 {prev23.map((card) => {
                     return <Card_p 
@@ -73,7 +73,7 @@ function About() {
                 })}
             </div>
 
-            <h3 className={styles.h3}>2022</h3>
+            <h2 className={styles.h2}>2022</h2>
             <div className={styles.previous_container}>
                 {prev22.map((card) => {
                     return <Card_p 
@@ -88,7 +88,7 @@ function About() {
                 })}
             </div>
 
-            <h3 className={styles.h3}>2021</h3>
+            <h2 className={styles.h2}>2021</h2>
             <div className={styles.previous_container}>
                 {prev21.map((card) => {
                     return <Card_p 
@@ -103,7 +103,7 @@ function About() {
                 })}
             </div>
 
-            <h3 className={styles.h3}>2019</h3>
+            <h2 className={styles.h2}>2019</h2>
             <div className={styles.previous_container}>
                 {prev19.map((card) => {
                     return <Card_p 
@@ -118,7 +118,7 @@ function About() {
                 })}
             </div>
 
-            <h3 className={styles.h3}>2018</h3>
+            <h2 className={styles.h2}>2018</h2>
             <div className={styles.previous_container}>
                 {prev18.map((card) => {
                     return <Card_p 

@@ -34,11 +34,6 @@
 .video {
     box-shadow: var(--shadow-light);
 }
-
-.h1 {
-    padding: 30px;
-    font-size: 3rem;
-}
 .p {
     padding: 30px;
     padding: 0 30px 20px;

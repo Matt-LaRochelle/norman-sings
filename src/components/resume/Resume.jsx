@@ -18,8 +18,8 @@ function Resume() {
                     <a href={nr} download><button className={styles.btn}>Download Resume</button></a>
                 </div>
             </div>
+            <h1>Roles Prepared:</h1>
             <div className={styles.prep}>
-                <h1>Roles Prepared:</h1>
                 <ul className={styles.ul}>
                     <li className={styles.li}><span className={styles.left}>Bizet</span><span className={styles.center}><em>Carmen</em></span><span className={styles.right}>Zuniga</span></li>
                     <li className={styles.li}><span className={styles.left}>Cavalli</span><span className={styles.center} ><em>Ormindo</em></span><span className={styles.right}>Hariadeno</span></li>

@@ -24,6 +24,11 @@ body {
     color: var(--primary-100);
 }
 
+h1 {
+    font-size: 3rem;
+    padding: 30px;
+}
+
 button {
     text-align: center;
     font-size: 1.4rem;
@@ -41,4 +46,11 @@ button:hover {
     background: var(--tertiary-200);
     border-color: var(--tertiary-200);
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 760px) {
+    h1 {
+        font-size: 2rem;
+    }
 }

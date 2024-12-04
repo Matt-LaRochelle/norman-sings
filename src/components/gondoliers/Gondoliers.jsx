@@ -11,7 +11,7 @@ function About() {
 
     return (
         <div>
-            <h1 className={styles.h1}>Gondola</h1>
+            <h1>Gondola</h1>
             <div className={styles.container}>
                 <div className={styles.content}>
                     <p className={styles.p}>Besides being an international opera singer, Norman is also a gondolier at The Venetian Resort in Las Vegas Nevada. He works 5 days a week sharing his voice with his guests and giving them a beautiful experience. He works both on the inside and the outside ride and would love for you to come join him on his gondola.</p>

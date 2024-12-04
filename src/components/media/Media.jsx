@@ -47,7 +47,7 @@ const v1 = "https://www.youtube.com/watch?v=yKs_S6c9yFE"
 function Media() {
     return (
         <div>
-            <h1 className={styles.h1}>Photos</h1>
+            <h1>Photos</h1>
             <div className={styles.swiperBig}>
                 <Swiper
                 style={{
@@ -126,7 +126,7 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa7} /></div></SwiperSlide>
                 </Swiper>
             </div>
-            <h1 className={styles.h1}>Videos</h1>
+            <h1>Videos</h1>
             <div className={styles.videos}>
                 <iframe 
                     width="100%"
@@ -229,7 +229,7 @@ function Media() {
                 </iframe>
             </div>
             <div className={styles.audio}>
-                <h1 className={styles.h1}>Audio</h1>
+                <h1>Audio</h1>
                 <p className={styles.p}><em className={styles.embold}>Long These Days</em> is an art song concept album composed by Jennifer Bellor, featuring soprano Olivia Yokers, bass Norman Espinoza, electric guitarist Tasos Peltekis, and Bellor, herself, on piano.</p>
                 <p className={styles.p}>Here you can listen to Norman’s Grammy nominated Spanish Cycle, <em>Cuatro Canciones de las Últimas Horas:</em></p>
                 <div className={styles.audioGrid}>
@@ -259,19 +259,18 @@ function Media() {
                 </div>
             </div>
             <div className={styles.testimonials}>
-                <h1 className={styles.h1}>Testimonials</h1>
+                <h1>Testimonials</h1>
                 <p className={styles.p}><em>Tremendous voice! Love the color, especially in the lower part of his voice. Intonation and inflection are very good.</em>  - CS Music</p>
                 <p className={styles.p}><em>Good Bass, good high notes, very good possibilities!!</em>  - CS Music</p>
                 <p className={styles.p}><em>Wow! Norman a wonderful singer/actor. He painted a complete picture that was just chilling. I loved the way he used dynamics in his powerful singing. And he also gave us a performance that used his  entire instrument in a way that supported his voice beautifully. I believed every second! Bravo!</em> - CS Music</p>
             </div>
-            <h1 className={styles.h1}>Social Media</h1>
+            <h1>Social Media</h1>
             <div className={styles.socials}>
                 <a href="https://www.instagram.com/normanno.espinoza/" target="_blank"><AiOutlineInstagram className={`${styles.icon} ${styles.instagram}`}/></a>
                 <a href="https://www.facebook.com/NormanBassoEspinoza" target="_blank"><AiFillFacebook className={`${styles.icon} ${styles.facebook}`}/></a>
                 <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ" target="_blank"><AiFillYoutube className={`${styles.icon} ${styles.youtube}`}/></a>
                 <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/" target="_blank"><AiFillLinkedin className={`${styles.icon} ${styles.linkedin}`}/></a>
                 <a href="https://www.tiktok.com/@normanno.espinoza" target="_blank"><div className={styles.tiktokdiv}><FaTiktok className={`${styles.icon} ${styles.tiktok}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok1}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok2}`}/></div></a>
-                
             </div>
         </div>
     );
