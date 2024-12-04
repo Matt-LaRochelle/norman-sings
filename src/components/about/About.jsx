@@ -44,7 +44,7 @@ function About() {
             </div>
 
             <h1>Previous Performances:</h1>
-            <h2 className={styles.h2}>2024</h2>
+            <h2>2024</h2>
             <div className={styles.previous_container}>
                 {prev24.map((card) => {
                     return <Card_p 
@@ -58,7 +58,7 @@ function About() {
                 />
                 })}
             </div>
-            <h2 className={styles.h2}>2023</h2>
+            <h2>2023</h2>
             <div className={styles.previous_container}>
                 {prev23.map((card) => {
                     return <Card_p 
@@ -73,7 +73,7 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>2022</h2>
+            <h2>2022</h2>
             <div className={styles.previous_container}>
                 {prev22.map((card) => {
                     return <Card_p 
@@ -88,7 +88,7 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>2021</h2>
+            <h2>2021</h2>
             <div className={styles.previous_container}>
                 {prev21.map((card) => {
                     return <Card_p 
@@ -103,7 +103,7 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>2019</h2>
+            <h2>2019</h2>
             <div className={styles.previous_container}>
                 {prev19.map((card) => {
                     return <Card_p 
@@ -118,7 +118,7 @@ function About() {
                 })}
             </div>
 
-            <h2 className={styles.h2}>2018</h2>
+            <h2>2018</h2>
             <div className={styles.previous_container}>
                 {prev18.map((card) => {
                     return <Card_p 

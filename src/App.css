@@ -28,6 +28,13 @@ h1 {
     font-size: 3rem;
     padding: 30px;
 }
+h2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
 
 button {
     text-align: center;
@@ -51,6 +58,9 @@ button:hover {
 
 @media screen and (max-width: 760px) {
     h1 {
+        font-size: 2rem;
+    }
+    h2 {
         font-size: 2rem;
     }
 }
