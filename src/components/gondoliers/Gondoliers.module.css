@@ -19,25 +19,6 @@
     display: block;
     margin: 0 auto 20px;
 }
-.a {
-    color: #333;
-    transition: all 0.3s ease;
-}
-.a:hover {
-    color: #f5f5f5;
-}
-
-.upcoming_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-right: 30px;
-}
-
-.previous_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-right: 30px;
-}
 
 .img {
     height: auto;
@@ -49,56 +30,19 @@
 .img_label {
     text-align: right;
     padding-right: 30px;
+    margin-bottom: 20px;
 }
 
 /* ---------------Upcoming Events---------------- */
 
-.h2 {
-    padding: 30px;
-    font-size: 3rem;
-}
-
-.h3 {
-    margin-top: 50px;
-    margin-left: 30px;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-weight: 500;
-}
-
 @media screen and (max-width: 1090px) {
-
     .container {
         grid-template-columns: 1fr;
         grid-gap: 1rem;
     }
-    .previous_container {
-        grid-template-columns: 1fr;
-        grid-gap: .5rem;
-    }
-
     .img {
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
-    }
-
-    .upcoming_container {
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .h2 {
-        font-size: 2rem;
-    }
-
-    .previous_container {
-        padding-right: 0px;
-    }
-
-    .upcoming_container {
-        padding-right: 0px;
     }
 }

@@ -40,7 +40,7 @@
 .li {
     list-style-type: none;
     padding: 20px;
-    background: rgb(226, 226, 226);
+    background: var(--primary-200);
     color: #333;
     min-width: 360px;
     display: grid;
@@ -49,9 +49,8 @@
 }
 
 .li:nth-child(odd) { 
-    background: rgb(46, 84, 44); 
-    background: #A1846E;
-    color: #f8f8f8;
+    background: var(--secondary);
+    color: var(--primary-200);
 }
 
 @media screen and (max-width: 700px) {
