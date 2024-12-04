@@ -49,7 +49,7 @@
 }
 
 .li:nth-child(odd) { 
-    background: var(--secondary);
+    background: var(--secondary-200);
     color: var(--primary-200);
 }
 

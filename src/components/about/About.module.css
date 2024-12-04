@@ -23,21 +23,21 @@
     font-weight: 500;
     border: none;
     border-radius: 5px;
-    background-color: #A1846E;
+    background-color: var(--secondary-200);
     color: #333;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .button:hover {
     background-color: #333;
-    color: #f5f5f5;
+    color: var(--primary-100);
 }
 .a {
     color: #333;
     transition: all 0.3s ease;
 }
 .a:hover {
-    color: #f5f5f5;
+    color: var(--primary-100);
 }
 
 .upcoming_container {
@@ -52,21 +52,11 @@
     padding-right: 30px;
 }
 
-.content {
-    /* border: 2px solid lime; */
-}
-
-.picture {
-    /* border: 2px solid aqua; */
-}
-
 .img {
     height: auto;
     width: 95%;
     margin-top: 3px;
-    /* border-radius: 10px; */
     margin: auto;
-    /* border: 2px solid blue; */
 }
 
 .img_label {

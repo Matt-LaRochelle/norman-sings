@@ -11,8 +11,10 @@
 :root {
     --primary-100: hsl(0, 0%, 97%);
     --primary-200: hsl(0, 0%, 89%);
-    --secondary: hsl(26, 21%, 53%);
-    --tertiary: hsl(120, 100%, 25%);
+    --secondary-100: hsl(26, 19%, 69%);
+    --secondary-200: hsl(26, 21%, 53%);
+    --tertiary-100: hsl(120, 70%, 59%);
+    --tertiary-200: hsl(120, 100%, 25%);
 }
 
 body {
@@ -26,8 +28,8 @@ button {
     font-size: 1.4rem;
     font-weight: 600;
     padding: 15px 25px;
-    background-color: var(--secondary);
-    border-color: var(--secondary);
+    background-color: var(--secondary-200);
+    border-color: var(--secondary-200);
     border-radius: 30px;
     border-style: solid;
     color: var(--primary-100);
@@ -35,7 +37,7 @@ button {
 }
 
 button:hover {
-    background: var(--tertiary);
-    border-color: var(--tertiary);
+    background: var(--tertiary-200);
+    border-color: var(--tertiary-200);
     cursor: pointer;
 }
