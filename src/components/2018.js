@@ -15,7 +15,7 @@ const cards = [
     {
         opera: "Die Fledermaus",
         role: "Frank (Role Debut)",
-        link: "https://www.sjsu.edu/music/index.php",
+        link: null,
         company: "San Jose State University",
         performances: ["May 4th 7:00pm", "May 6th 3:00pm"],
         location: "San Jose, California",

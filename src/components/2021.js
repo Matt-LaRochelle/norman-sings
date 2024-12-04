@@ -39,7 +39,7 @@ const cards = [
     {
         opera: "La Cenerentola",
         role: "Alidoro (Role Debut)",
-        link: "https://www.alringling.org/",
+        link: null,
         company: "Al. Ringling Theatre",
         performances: ["July 13th 7:00pm", "July 19th 7:00pm"],
         location: "Baraboo, Wisconsin",
@@ -49,7 +49,7 @@ const cards = [
     {
         opera: "Don Giovanni",
         role: "Il Commendatore (Role Debut/Guest Artist)",
-        link: "https://www.fullerton.edu/arts/",
+        link: null,
         company: "Cal State University - Fullerton",
         performances: ["May 14th 6:00pm", "May 15th 6:00pm", "May 16th 6:00pm"],
         location: "Fullerton, California",
@@ -59,7 +59,7 @@ const cards = [
     {
         opera: "Amahl and the Night Visitors",
         role: "King Balthazar",
-        link: "https://lyricoperaoc.org/",
+        link: null,
         company: "Lyric Opera of Orance County",
         performances: ["December 29th 6:00pm (2019)", "January 4th 7:00pm", "January 5th 7:00pm"],
         location: "Rancho Santa Margarita, California",

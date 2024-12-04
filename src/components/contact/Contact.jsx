@@ -20,6 +20,7 @@ function Contact() {
 
     return (
         <div>
+            <h1>Contact</h1>
             <div className={styles.grid}>
                 <div className={styles.gridItem2}>
                     <form className={styles.container} onSubmit={sendEmail}>
