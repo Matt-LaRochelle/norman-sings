@@ -1,13 +1,25 @@
+.container {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem; */
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.content {
+    /* border: 2px solid orange; */
+    float: none;
+}
 .p {
     padding: 0px 30px 30px;
     font-size: 1.4rem;
     font-weight: 300;
+    max-width: 75ch;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.2rem;
+.picture {
+    float: right;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    margin: 0 0 30px 30px;
 }
 
 .first_date {
@@ -65,25 +77,33 @@
 /* ---------------Upcoming Events---------------- */
 
 @media screen and (max-width: 1090px) {
-
-    .container {
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }
     .previous_container {
         grid-template-columns: 1fr;
         grid-gap: .5rem;
     }
 
+    .upcoming_container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .picture {
+        float: none;
+        width: 100%;
+        margin: 10px;
+    };
     .img {
         width: 95%;
         margin-left: 2.5%;
         margin-right: 2.5%;
-    }
-
-    .upcoming_container {
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
+        padding-right: 20px;
     }
 }
 
