@@ -10,6 +10,10 @@
     grid-gap: 1.2rem;
 }
 
+.first_date {
+    margin-top: -10px;
+}
+
 .button {
     margin: 30px;
     padding: 10px 20px;

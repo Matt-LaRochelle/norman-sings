@@ -28,6 +28,7 @@ function About() {
                 </div>
             </div>
             <h1>Upcoming Performances:</h1>
+            <h2 className={styles.first_date}>2025</h2>
             <div className={styles.upcoming_container}>
                 {upcoming_cards.map((card) => {
                     return <Card 
@@ -43,7 +44,7 @@ function About() {
             </div>
 
             <h1>Previous Performances:</h1>
-            <h2>2024</h2>
+            <h2 className={styles.first_date}>2024</h2>
             <div className={styles.previous_container}>
                 {prev24.map((card) => {
                     return <Card 
