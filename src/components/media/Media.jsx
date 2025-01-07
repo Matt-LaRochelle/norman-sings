@@ -227,6 +227,17 @@ function Media() {
                     className={styles.video}
                     >
                 </iframe>
+                <iframe 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/DzWA5otxzO8?si=E3BR5qhOKkG5dJ9h"
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                    className={styles.video}
+                    >
+                </iframe>
             </div>
             <div className={styles.audio}>
                 <h1>Audio</h1>
