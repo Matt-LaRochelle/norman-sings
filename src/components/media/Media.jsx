@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Media.module.css';
-import headshot1 from '../images/Headshot1.jpg';
-import headshot2 from '../images/Headshot2.jpg';
-import headshot3 from '../images/Headshot3.jpg';
+import headshot1 from '../images/Headshot1rs.webp';
+import headshot2 from '../images/Headshot2rs.webp';
+import headshot3 from '../images/Headshot3rs.webp';
 import recital1 from '../images/recital1.jpeg';
-import fledermaus1 from '../images/Fledermaus1.jpg';
-import fledermaus2 from '../images/Fledermaus2.jpg';
+import fledermaus1 from '../images/Fledermaus1rs.webp';
+import fledermaus2 from '../images/Fledermaus2rs.webp';
 import fledermaus3 from '../images/Fledermaus3.jpeg';
 import OLVTraviata1 from '../images/OLVTraviata1.jpeg';
 import OLVTraviata3 from '../images/OLVTraviata3.jpeg';
@@ -64,27 +64,27 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={recital1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa5} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa6} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa7} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} /></div></SwiperSlide>
                 </Swiper>
             </div>
             <div className={styles.swiperSmall}>
@@ -103,27 +103,27 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={headshot3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={recital1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={fledermaus3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={OLVTraviata4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={LettersToLilly4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa5} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa6} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} src={Mustafa7} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} /></div></SwiperSlide>
                 </Swiper>
             </div>
             <h1>Videos</h1>
@@ -137,6 +137,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -148,6 +149,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -159,6 +161,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -170,6 +173,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -181,6 +185,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -192,6 +197,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -203,6 +209,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -214,6 +221,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -225,6 +233,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
                 <iframe 
@@ -236,6 +245,7 @@ function Media() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
                     className={styles.video}
+                    loading="lazy"
                     >
                 </iframe>
             </div>

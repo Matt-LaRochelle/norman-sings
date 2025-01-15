@@ -1,5 +1,5 @@
 .hero {
-    background: url('../images/Norman_HS3.JPG') no-repeat center/cover;
+    background: url('../images/Headshot3rs.webp') no-repeat center/cover;
     display: flex;
     width: 100%;
     height: 100%;
@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        background: url('../images/Norman_HS31.png') no-repeat center/cover;
+        background: url('../images/Norman_HS31rs.webp') no-repeat center/cover;
     }
 }

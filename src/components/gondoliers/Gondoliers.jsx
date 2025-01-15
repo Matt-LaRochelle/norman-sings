@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Gondoliers.module.css';
-import gondolier from '../images/gondola.JPG';
+import gondolier from '../images/gondolars.webp';
 
 
 function About() {

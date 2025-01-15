@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Resume.module.css';
 import n2 from '../images/Espinoza-HS .jpg';
 import n3 from '../images/Norman Opera Resume 2024.png';
-import nh from '../images/Espinoza-HS .jpg';
+import nh from '../images/Headshot3.jpg';
 import nr from '../images/Norman Opera Resume 2024.pdf';
 
 function Resume() {
