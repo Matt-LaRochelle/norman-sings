@@ -1,8 +1,8 @@
 import olv from './logos/olv2.png';
 import vnm from './logos/VNM.png';
 import osb from './logos/osb.png';
-import pc from './logos/pc.png';
-import lvo from './logos/lvo.png';
+import pc from './logos/pcrs.webp';
+import lvo from './logos/lvors.webp';
 
 
 const cards = [

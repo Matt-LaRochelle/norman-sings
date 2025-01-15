@@ -22,7 +22,7 @@ import Mustafa5 from '../images/Mustafa5.JPG';
 import Mustafa6 from '../images/Mustafa6.JPG';
 import Mustafa7 from '../images/Mustafa7.JPG';
 
-import LongTheseDays from '../logos/LongTheseDays.png';
+import LongTheseDays from '../logos/LongTheseDaysrs.webp';
 import AudioSample1 from '../audio/Mañana.wav';
 import AudioSample2 from '../audio/Mediodía.wav';
 import AudioSample3 from '../audio/Tarde.wav';

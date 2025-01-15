@@ -1,4 +1,4 @@
-import jo from './logos/jo.png';
+import jo from './logos/jors.webp';
 import sjsu from './logos/sjsu.png';
 
 const cards = [

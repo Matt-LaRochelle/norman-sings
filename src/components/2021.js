@@ -1,8 +1,8 @@
 import olv from './logos/olv2.png';
 import osb from './logos/osb.png';
 import vco from './logos/vco.png';
-import art from './logos/art.png';
-import csuf from './logos/csuf.png';
+import art from './logos/artrs.webp';
+import csuf from './logos/csufrs.webp';
 import loooc from './logos/loooc.png';
 
 const cards = [
