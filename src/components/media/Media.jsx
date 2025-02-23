@@ -21,6 +21,8 @@ import Mustafa4 from '../images/Mustafa4.JPG';
 import Mustafa5 from '../images/Mustafa5.JPG';
 import Mustafa6 from '../images/Mustafa6.JPG';
 import Mustafa7 from '../images/Mustafa7.JPG';
+import fiorello1 from '../images/fiorello1.webp';
+import fiorello2 from '../images/fiorello2.webp';
 
 import LongTheseDays from '../logos/LongTheseDaysrs.webp';
 import AudioSample1 from '../audio/Mañana.wav';
@@ -67,6 +69,8 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
@@ -106,6 +110,8 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
