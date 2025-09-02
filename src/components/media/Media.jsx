@@ -23,6 +23,10 @@ import Mustafa6 from '../images/Mustafa6.JPG';
 import Mustafa7 from '../images/Mustafa7.JPG';
 import fiorello1 from '../images/fiorello1.webp';
 import fiorello2 from '../images/fiorello2.webp';
+import sparafucile1 from '../images/Sparafucile2025-2.JPG';
+import sparafucile2 from '../images/Sparafucile2025-6.JPG';
+import sparafucile3 from '../images/Sparafucile2025-9.JPG';
+import sparafucile4 from '../images/Sparafucile2025-11.JPG';
 
 import LongTheseDays from '../logos/LongTheseDaysrs.webp';
 import AudioSample1 from '../audio/Mañana.wav';
@@ -69,6 +73,10 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
@@ -110,6 +118,10 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>

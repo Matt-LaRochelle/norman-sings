@@ -29,8 +29,9 @@ function About() {
                 </div>
             </div>
             <h1>Upcoming Performances:</h1>
-            <h2 className={styles.first_date}>2025</h2>
-            <div className={styles.upcoming_container}>
+            <p className={styles.p}>No upcoming performances currently.</p>
+            {/* <h2 className={styles.first_date}>2025</h2> */}
+            {/* <div className={styles.upcoming_container}>
                 {upcoming_cards.map((card) => {
                     return <Card 
                     opera={card.opera}
@@ -42,7 +43,7 @@ function About() {
                     image={card.image}
                 />
                 })}
-            </div>
+            </div> */}
 
             <h1>Previous Performances:</h1>
             <h2 className={styles.first_date}>2025</h2>
