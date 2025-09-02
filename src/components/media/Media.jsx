@@ -3,6 +3,7 @@ import styles from './Media.module.css';
 import headshot1 from '../images/Headshot1rs.webp';
 import headshot2 from '../images/Headshot2rs.webp';
 import headshot3 from '../images/Headshot3rs.webp';
+import headshot4 from '../images/Headshot4.webp';
 import recital1 from '../images/recital1.jpeg';
 import fledermaus1 from '../images/Fledermaus1rs.webp';
 import fledermaus2 from '../images/Fledermaus2rs.webp';
@@ -73,6 +74,7 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
@@ -118,6 +120,7 @@ function Media() {
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
                     <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
@@ -147,6 +150,18 @@ function Media() {
             <h1>Videos</h1>
             <div className={styles.videos}>
                 <iframe 
+                    width="100%" 
+                    height="100%" 
+                    src="https://www.youtube.com/embed/f7vaWTulKIA?si=ANhsClOclQDg6Eo1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                    className={styles.video}
+                    loading="lazy"
+                    >
+                </iframe>
+                <iframe 
                     width="100%"
                     height="100%"
                     src="https://www.youtube.com/embed/yKs_S6c9yFE" 
@@ -162,18 +177,6 @@ function Media() {
                     width="100%" 
                     height="100%" 
                     src="https://www.youtube.com/embed/S22pQYnqRtQ" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen
-                    className={styles.video}
-                    loading="lazy"
-                    >
-                </iframe>
-                <iframe 
-                    width="100%" 
-                    height="100%" 
-                    src="https://www.youtube.com/embed/kvq2vSovus8" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
