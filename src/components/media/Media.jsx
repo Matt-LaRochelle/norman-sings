@@ -47,10 +47,6 @@ import "swiper/css/navigation";
 import { AiOutlineInstagram, AiFillFacebook, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
 import { FaTiktok } from "react-icons/fa";
 
-
-
-const v1 = "https://www.youtube.com/watch?v=yKs_S6c9yFE"
-
 function Media() {
     return (
         <div>
@@ -308,11 +304,11 @@ function Media() {
             </div>
             <h1>Social Media</h1>
             <div className={styles.socials}>
-                <a href="https://www.instagram.com/normanno.espinoza/" target="_blank"><AiOutlineInstagram className={`${styles.icon} ${styles.instagram}`}/></a>
-                <a href="https://www.facebook.com/NormanBassoEspinoza" target="_blank"><AiFillFacebook className={`${styles.icon} ${styles.facebook}`}/></a>
-                <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ" target="_blank"><AiFillYoutube className={`${styles.icon} ${styles.youtube}`}/></a>
-                <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/" target="_blank"><AiFillLinkedin className={`${styles.icon} ${styles.linkedin}`}/></a>
-                <a href="https://www.tiktok.com/@normanno.espinoza" target="_blank"><div className={styles.tiktokdiv}><FaTiktok className={`${styles.icon} ${styles.tiktok}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok1}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok2}`}/></div></a>
+                <a href="https://www.instagram.com/normanno.espinoza/" target="_blank" rel="noreferrer"><AiOutlineInstagram className={`${styles.icon} ${styles.instagram}`}/></a>
+                <a href="https://www.facebook.com/NormanBassoEspinoza" target="_blank" rel="noreferrer"><AiFillFacebook className={`${styles.icon} ${styles.facebook}`}/></a>
+                <a href="https://www.youtube.com/channel/UCWuMPcF-W7zr1_ANY21cWjQ" target="_blank" rel="noreferrer"><AiFillYoutube className={`${styles.icon} ${styles.youtube}`}/></a>
+                <a href="https://www.linkedin.com/in/norman-espinoza-b762b860/" target="_blank" rel="noreferrer"><AiFillLinkedin className={`${styles.icon} ${styles.linkedin}`}/></a>
+                <a href="https://www.tiktok.com/@normanno.espinoza" target="_blank" rel="noreferrer"><div className={styles.tiktokdiv}><FaTiktok className={`${styles.icon} ${styles.tiktok}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok1}`}/><FaTiktok className={`${styles.icon} ${styles.tiktok2}`}/></div></a>
             </div>
         </div>
     );
