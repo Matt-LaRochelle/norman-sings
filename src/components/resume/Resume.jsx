@@ -10,11 +10,11 @@ function Resume() {
         <div>
             <div className={styles.container}>
                 <div className={styles.nPhoto}>
-                    <img className={styles.img} src={n2} />
+                    <img className={styles.img} src={n2} alt="Norman Espinoza Headshot" />
                     <a href={nh} download><button className={styles.btn}>Download Headshot</button></a>
                 </div>
                 <div className={styles.nResume}>
-                    <img className={styles.img} src={n3} />
+                    <img className={styles.img} src={n3} alt="Norman Espinoza Opera Resume" />
                     <a href={nr} download><button className={styles.btn}>Download Resume</button></a>
                 </div>
             </div>
