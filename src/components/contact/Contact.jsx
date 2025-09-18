@@ -37,7 +37,7 @@ function Contact() {
                     </form>
                 </div>
                 <div className={styles.gridItem1}>
-                    <img className={styles.img} src={N6} />
+                    <img className={styles.img} src={N6} alt="Headshot of Norman Espinoza" />
                 </div>
             </div>
         </div>

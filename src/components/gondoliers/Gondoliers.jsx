@@ -20,7 +20,7 @@ function About() {
                     <p className={styles.p}>Thank you for taking a ride and looking forward to your return!</p>
                 </div>
                 <div className={styles.picture}>
-                    <img className={styles.img} src={gondolier} />
+                    <img className={styles.img} src={gondolier} alt="Gondolier at The Venetian Resort" />
                     <p className={styles.img_label}>Gondola Ride, Las Vegas, NV</p>
                 </div>
             </div>

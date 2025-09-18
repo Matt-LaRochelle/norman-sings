@@ -71,34 +71,34 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} alt="Norman as Fiorello in Il Barbiere di Siviglia" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} alt="Norman as Fiorello in Il Barbiere di Siviglia" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} alt="Norman in Recital" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
                 </Swiper>
             </div>
             <div className={styles.swiperSmall}>
@@ -117,34 +117,34 @@ function Media() {
                     modules={[Pagination, Navigation]}
                     className={styles.mySwiper}
                 >
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} /></div></SwiperSlide>
-                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot1} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot2} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot3} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={headshot4} alt="Headshot of Norman Espinoza" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile1} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile2} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile3} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={sparafucile4} alt="Norman as Sparafucile in Rigoletto" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello1} alt="Norman as Fiorello in Il Barbiere di Siviglia" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fiorello2} alt="Norman as Fiorello in Il Barbiere di Siviglia" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={recital1} alt="Norman in Recital" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus1} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus2} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={fledermaus3} alt="Norman in Die Fledermaus" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata1} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata3} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={OLVTraviata4} alt="Norman in La Traviata" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly1} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly2} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly3} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={LettersToLilly4} alt="Norman in Letters to Lilly" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa1} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa2} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa3} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa4} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa5} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa6} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
+                    <SwiperSlide><div className={styles.slide}><img className={styles.img} loading="lazy" src={Mustafa7} alt="Norman as Mustafa in L'italiana in Algeri" /></div></SwiperSlide>
                 </Swiper>
             </div>
             <h1>Videos</h1>

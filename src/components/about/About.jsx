@@ -17,7 +17,7 @@ function About() {
             <h1>About</h1>
             <div className={styles.container}>
                 <div className={styles.picture}>
-                    <img className={styles.img} src={n1} />
+                    <img className={styles.img} src={n1} alt="Al Ringling Theatre @ Baraboo, WI" />
                     <p className={styles.img_label}>Al Ringling Theatre @ Baraboo, WI</p>
                 </div>
                 <div className={styles.content}>
